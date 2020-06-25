@@ -5,7 +5,7 @@
  * @link      https://developer.wordpress.org/themes/basics/theme-functions/
  * @package   Nightingale
  * @copyright NHS Leadership Academy, Tony Blacker
- * @version   2.1.7.3 29th May 2020
+ * @version   2.1.8 22nd June 2020
  */
 
 /**
@@ -276,7 +276,16 @@ function nightingale_register_required_plugins() {
 			'slug'         => 'nhsblocks',
 			'source'       => '',
 			'required'     => false,
-			'version'      => '1.1.5',
+			'version'      => '1.1.6',
+			'external_url' => '',
+			'is_callable'  => '',
+		),
+		array(
+			'name'         => 'Nightingale Companion',
+			'slug'         => 'nightingale-companion',
+			'source'       => '',
+			'required'     => false,
+			'version'      => '1.0.2',
 			'external_url' => '',
 			'is_callable'  => '',
 		),

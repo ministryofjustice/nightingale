@@ -780,6 +780,11 @@
   /* clearfix after grouped items to sort out some display wirdiness */
 }
 
+.edit-post-visual-editor [data-type="nhsblocks/stripesblock"], .block-editor-block-styles [data-type="nhsblocks/stripesblock"], .block-editor-inserter__menu-help-panel [data-type="nhsblocks/stripesblock"] {
+  margin-left: 16px;
+  max-width: 100%;
+}
+
 .edit-post-visual-editor html, .block-editor-block-styles html, .block-editor-inserter__menu-help-panel html {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -13391,10 +13396,6 @@
   padding: 24px 0;
 }
 
-.edit-post-visual-editor #secondary .nhsuk-header__search-wrap .autocomplete-container, .block-editor-block-styles #secondary .nhsuk-header__search-wrap .autocomplete-container, .block-editor-inserter__menu-help-panel #secondary .nhsuk-header__search-wrap .autocomplete-container {
-  float: left;
-}
-
 .edit-post-visual-editor #secondary .nhsuk-header__search-wrap .nhsuk-search__input, .block-editor-block-styles #secondary .nhsuk-header__search-wrap .nhsuk-search__input, .block-editor-inserter__menu-help-panel #secondary .nhsuk-header__search-wrap .nhsuk-search__input {
   border: 2px solid #f0f4f5;
   border-radius: 4px 0px 0px 4px;
@@ -13406,12 +13407,12 @@
   border: 2px solid #f0f4f5;
   border-left: none;
   float: left;
+  box-shadow: 0 !important;
 }
 
 .edit-post-visual-editor #secondary .nhsuk-header__search-wrap .nhsuk-header__search-toggle, .block-editor-block-styles #secondary .nhsuk-header__search-wrap .nhsuk-header__search-toggle, .block-editor-inserter__menu-help-panel #secondary .nhsuk-header__search-wrap .nhsuk-header__search-toggle {
   background-color: #f0f4f5;
   border-color: #005eb8;
-  box-shadow: none;
   color: #005eb8;
 }
 
@@ -13428,30 +13429,9 @@
   fill: #ffffff;
 }
 
-.edit-post-visual-editor .nhsuk-search__submit, .block-editor-block-styles .nhsuk-search__submit, .block-editor-inserter__menu-help-panel .nhsuk-search__submit {
-  box-shadow: none;
-}
-
 @media (min-width: 40.0625em) {
   .edit-post-visual-editor .nhsuk-search__submit, .block-editor-block-styles .nhsuk-search__submit, .block-editor-inserter__menu-help-panel .nhsuk-search__submit {
     padding-top: 6px;
-  }
-}
-
-@media (max-width: 40.0525em) {
-  .edit-post-visual-editor .nhsuk-header__search-wrap.js-show, .block-editor-block-styles .nhsuk-header__search-wrap.js-show, .block-editor-inserter__menu-help-panel .nhsuk-header__search-wrap.js-show {
-    position: absolute;
-    right: 0;
-    top: 46px;
-    background: #ffffff;
-    z-index: 9999;
-    width: 100vw;
-  }
-  .edit-post-visual-editor .nhsuk-header__search-wrap.js-show .nhsuk-header__search-form, .block-editor-block-styles .nhsuk-header__search-wrap.js-show .nhsuk-header__search-form, .block-editor-inserter__menu-help-panel .nhsuk-header__search-wrap.js-show .nhsuk-header__search-form {
-    padding: 0 24px;
-  }
-  .edit-post-visual-editor .nhsuk-header__search-wrap.js-show #autocomplete-container input[type=text], .block-editor-block-styles .nhsuk-header__search-wrap.js-show #autocomplete-container input[type=text], .block-editor-inserter__menu-help-panel .nhsuk-header__search-wrap.js-show #autocomplete-container input[type=text] {
-    border: 1px solid #aeb7bd;
   }
 }
 
@@ -13483,7 +13463,6 @@
 .edit-post-visual-editor #primary .page-content .nhsuk-header__search-wrap .nhsuk-header__search-toggle, .block-editor-block-styles #primary .page-content .nhsuk-header__search-wrap .nhsuk-header__search-toggle, .block-editor-inserter__menu-help-panel #primary .page-content .nhsuk-header__search-wrap .nhsuk-header__search-toggle {
   background-color: #f0f4f5;
   border-color: #005eb8;
-  box-shadow: none;
   color: #005eb8;
 }
 
@@ -13548,6 +13527,10 @@
   .edit-post-visual-editor .error404 #primary .page-content .nhsuk-header__search-wrap .nhsuk-search__submit, .edit-post-visual-editor .search-no-results #primary .page-content .nhsuk-header__search-wrap .nhsuk-search__submit, .block-editor-block-styles .error404 #primary .page-content .nhsuk-header__search-wrap .nhsuk-search__submit, .block-editor-block-styles .search-no-results #primary .page-content .nhsuk-header__search-wrap .nhsuk-search__submit, .block-editor-inserter__menu-help-panel .error404 #primary .page-content .nhsuk-header__search-wrap .nhsuk-search__submit, .block-editor-inserter__menu-help-panel .search-no-results #primary .page-content .nhsuk-header__search-wrap .nhsuk-search__submit {
     margin-top: 0;
   }
+}
+
+.edit-post-visual-editor .nhsuk-grid-row .nhsuk-panel-group .nhsuk-grid-column-one-third:nth-of-type(3n+1), .edit-post-visual-editor .block-editor-block-list__layout [data-type="nhsblocks/rowgroup"] .nhsuk-grid-row .nhsuk-panel-group :nth-of-type(3n+1)[data-type="nhsblocks/onethird"], .block-editor-block-styles .block-editor-block-list__layout [data-type="nhsblocks/rowgroup"] .edit-post-visual-editor .nhsuk-grid-row .nhsuk-panel-group :nth-of-type(3n+1)[data-type="nhsblocks/onethird"], .block-editor-inserter__menu-help-panel .block-editor-block-list__layout [data-type="nhsblocks/rowgroup"] .edit-post-visual-editor .nhsuk-grid-row .nhsuk-panel-group :nth-of-type(3n+1)[data-type="nhsblocks/onethird"], .block-editor-block-styles .nhsuk-grid-row .nhsuk-panel-group .nhsuk-grid-column-one-third:nth-of-type(3n+1), .edit-post-visual-editor .block-editor-block-list__layout [data-type="nhsblocks/rowgroup"] .block-editor-block-styles .nhsuk-grid-row .nhsuk-panel-group :nth-of-type(3n+1)[data-type="nhsblocks/onethird"], .block-editor-block-styles .block-editor-block-list__layout [data-type="nhsblocks/rowgroup"] .nhsuk-grid-row .nhsuk-panel-group :nth-of-type(3n+1)[data-type="nhsblocks/onethird"], .block-editor-inserter__menu-help-panel .block-editor-block-list__layout [data-type="nhsblocks/rowgroup"] .block-editor-block-styles .nhsuk-grid-row .nhsuk-panel-group :nth-of-type(3n+1)[data-type="nhsblocks/onethird"], .block-editor-inserter__menu-help-panel .nhsuk-grid-row .nhsuk-panel-group .nhsuk-grid-column-one-third:nth-of-type(3n+1), .edit-post-visual-editor .block-editor-block-list__layout [data-type="nhsblocks/rowgroup"] .block-editor-inserter__menu-help-panel .nhsuk-grid-row .nhsuk-panel-group :nth-of-type(3n+1)[data-type="nhsblocks/onethird"], .block-editor-block-styles .block-editor-block-list__layout [data-type="nhsblocks/rowgroup"] .block-editor-inserter__menu-help-panel .nhsuk-grid-row .nhsuk-panel-group :nth-of-type(3n+1)[data-type="nhsblocks/onethird"], .block-editor-inserter__menu-help-panel .block-editor-block-list__layout [data-type="nhsblocks/rowgroup"] .nhsuk-grid-row .nhsuk-panel-group :nth-of-type(3n+1)[data-type="nhsblocks/onethird"] {
+  padding: 0 8px;
 }
 
 .edit-post-visual-editor .interim-login header, .edit-post-visual-editor .interim-login footer, .block-editor-block-styles .interim-login header, .block-editor-block-styles .interim-login footer, .block-editor-inserter__menu-help-panel .interim-login header, .block-editor-inserter__menu-help-panel .interim-login footer {
