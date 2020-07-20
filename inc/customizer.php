@@ -94,7 +94,7 @@ function nightingale_customize_register( $wp_customize ) {
 			'section'     => 'section_header',
 			'type'        => 'radio',
 			'choices'     => array(
-				'normal'   => esc_html__( 'Solid Blue', 'nightingale' ),
+				'normal'   => esc_html__( 'Solid Colour', 'nightingale' ),
 				'inverted' => esc_html__( 'White Logo Bar', 'nightingale' ),
 			),
 		)
@@ -144,56 +144,16 @@ function nightingale_customize_register( $wp_customize ) {
 		)
 	);
 
-	/*
-	 * Show NHS Logo?
-	 */
-	$wp_customize->add_setting(
-		'nhs_logo',
-		array(
-			'default'           => 'no',
-			'sanitize_callback' => 'nightingale_sanitize_select',
-		)
-	);
+    $wp_customize->add_setting('copyright_img', array(
+        'sanitize_callback' => 'nightingale_sanitize_image'
+    ));
 
-	$wp_customize->add_control(
-		'nhs_logo',
-		array(
-			'label'       => esc_html__( 'Do you wish to use the NHS logo?', 'nightingale' ),
-			'description' => esc_html__( 'this setting is ignored if you have uploaded a custom logo above. Please note the NHS logo is a trademark and should only be used by organisations that have permission to use it as part of their branding.', 'nightingale' ),
-			'section'     => 'title_tagline',
-			'type'        => 'radio',
-			'choices'     => array(
-				'yes' => esc_html__( 'Yes', 'nightingale' ),
-				'no'  => esc_html__( 'No', 'nightingale' ),
-			),
-		)
-	);
-
-	/*
-	 * -----------------------------------------------------------
-	 * LOGO Generation
-	 * -----------------------------------------------------------
-	 */
-	$wp_customize->add_setting(
-		'logo_type',
-		array(
-			'default'           => 'transactional',
-			'sanitize_callback' => 'nightingale_sanitize_select',
-		)
-	);
-	$wp_customize->add_control(
-		'logo_type',
-		array(
-			'label'       => esc_html__( 'Logo Builder', 'nightingale' ),
-			'description' => esc_html__( 'You can create your own site logo. It is strongly recommened to use the NHS logo if you are able to. This only takes effect if you have not uploaded a site logo. Both options are accepted NHS design patterns.', 'nightingale' ),
-			'section'     => 'title_tagline',
-			'type'        => 'radio',
-			'choices'     => array(
-				'transactional' => esc_html__( 'Inline (shows just site name to the right of logo)', 'nightingale' ),
-				'organisation'  => esc_html__( 'Block (shows both site name and tagline beneath logo)', 'nightingale' ),
-			),
-		)
-	);
+    $wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'copyright_img_control', array(
+        'label'       => esc_html__( 'Footer Copyright Image?', 'nightingale' ),
+        'description' => esc_html__( 'Select a copyright image for the footer', 'nightingale' ),
+        'settings'  => 'copyright_img',
+        'section'   => 'title_tagline'
+    ) ));
 
 	/*
 	 * -----------------------------------------------------------
@@ -418,6 +378,8 @@ function nightingale_add_blog_settings( $wp_customize ) {
 			)
 		)
 	);
+
+    $wp_customize->remove_control( 'custom_css' );
 }
 
 add_action( 'customize_register', 'nightingale_add_blog_settings' );

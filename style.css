@@ -10747,6 +10747,14 @@ textarea:focus, #login #loginform .user-login:focus, #login #loginform .user_pas
 }
 
 /* end of header.scss include */
+.nhsuk-footer__copyright_img {
+  text-align: center;
+}
+
+.nhsuk-footer__copyright_img img {
+  max-width: 50%;
+}
+
 /*
 // variations to styling required for gutenberg native blocks
 // @author Tony Blacker, NHS Leadership Academy
