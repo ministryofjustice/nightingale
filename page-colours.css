@@ -2209,3 +2209,161 @@
     background: #ffffff;
   }
 }
+
+.page-colour--magistrates-teal .nhsuk-footer,
+.page-colour--magistrates-teal #secondary section, #content .page-style--magistrates-teal .nhsuk-footer,
+#content .page-style--magistrates-teal #secondary section {
+  border-top-color: #336C83;
+}
+
+.page-colour--magistrates-teal .nhsuk-header,
+.page-colour--magistrates-teal .nhsuk-header--white .nhsuk-search__submit,
+.page-colour--magistrates-teal #secondary section h2.widget-title,
+.page-colour--magistrates-teal .nhsuk-panel-with-label__label,
+.page-colour--magistrates-teal #secondary section #wp-calendar caption,
+.page-colour--magistrates-teal #secondary section h2.widget-title,
+.page-colour--magistrates-teal .nhsuk-panel-with-label__label,
+.page-colour--magistrates-teal #secondary section #wp-calendar caption,
+.page-colour--magistrates-teal .nhsuk-do-dont-list__label,
+.page-colour--magistrates-teal .nhsuk-care-card.is-style-default .nhsuk-care-card__heading-container,
+.page-colour--magistrates-teal .nhsuk-hero--image-description .nhsuk-hero-content,
+.page-colour--magistrates-teal .nhsuk-panel-with-label__label,
+.page-colour--magistrates-teal .nhsuk-panel.is-style-panel-with-label h3,
+.page-colour--magistrates-teal .nhsuk-panel.is-style-panel-with-label h3 .rich-text, #content .page-style--magistrates-teal .nhsuk-header,
+#content .page-style--magistrates-teal .nhsuk-header--white .nhsuk-search__submit,
+#content .page-style--magistrates-teal #secondary section h2.widget-title,
+#content .page-style--magistrates-teal .nhsuk-panel-with-label__label,
+#content .page-style--magistrates-teal #secondary section #wp-calendar caption,
+#content .page-style--magistrates-teal #secondary section h2.widget-title,
+#content .page-style--magistrates-teal .nhsuk-panel-with-label__label,
+#content .page-style--magistrates-teal #secondary section #wp-calendar caption,
+#content .page-style--magistrates-teal .nhsuk-do-dont-list__label,
+#content .page-style--magistrates-teal .nhsuk-care-card.is-style-default .nhsuk-care-card__heading-container,
+#content .page-style--magistrates-teal .nhsuk-hero--image-description .nhsuk-hero-content,
+#content .page-style--magistrates-teal .nhsuk-panel-with-label__label,
+#content .page-style--magistrates-teal .nhsuk-panel.is-style-panel-with-label h3,
+#content .page-style--magistrates-teal .nhsuk-panel.is-style-panel-with-label h3 .rich-text {
+  background-color: #336C83;
+  background: #336C83;
+  color: #ffffff;
+}
+
+.page-colour--magistrates-teal .nhsuk-details__summary,
+.page-colour--magistrates-teal .nhsuk-details__summary-text,
+.page-colour--magistrates-teal .nhsuk-promo__heading,
+.page-colour--magistrates-teal a, #content .page-style--magistrates-teal .nhsuk-details__summary,
+#content .page-style--magistrates-teal .nhsuk-details__summary-text,
+#content .page-style--magistrates-teal .nhsuk-promo__heading,
+#content .page-style--magistrates-teal a {
+  color: #336C83;
+}
+
+.page-colour--magistrates-teal a.nhsuk-button, #content .page-style--magistrates-teal a.nhsuk-button {
+  color: #ffffff;
+}
+
+.page-colour--magistrates-teal a.nhsuk-button--reverse, #content .page-style--magistrates-teal a.nhsuk-button--reverse {
+  color: #000000;
+}
+
+.page-colour--magistrates-teal .nhsuk-inset-text,
+.page-colour--magistrates-teal .is-style-default .nhsuk-care-card__arrow:before,
+.page-colour--magistrates-teal .is-style-default .nhsuk-care-card__arrow:after,
+.page-colour--magistrates-teal .nhsuk-hero--image-description .nhsuk-hero-content .nhsuk-hero__arrow:before,
+.page-colour--magistrates-teal .nhsuk-hero--image-description .nhsuk-hero-content .nhsuk-hero__arrow:after,
+.page-colour--magistrates-teal #secondary section, #content .page-style--magistrates-teal .nhsuk-inset-text,
+#content .page-style--magistrates-teal .is-style-default .nhsuk-care-card__arrow:before,
+#content .page-style--magistrates-teal .is-style-default .nhsuk-care-card__arrow:after,
+#content .page-style--magistrates-teal .nhsuk-hero--image-description .nhsuk-hero-content .nhsuk-hero__arrow:before,
+#content .page-style--magistrates-teal .nhsuk-hero--image-description .nhsuk-hero-content .nhsuk-hero__arrow:after,
+#content .page-style--magistrates-teal #secondary section {
+  border-color: #336C83;
+}
+
+.page-colour--magistrates-teal .navigation .nhsuk-pagination ul.nhsuk-pagination__list li.nhsuk-pagination-item--next a .nhsuk-icon,
+.page-colour--magistrates-teal .navigation .nhsuk-pagination ul.nhsuk-pagination__list li.nhsuk-pagination-item--previous a .nhsuk-icon,
+.page-colour--magistrates-teal .nhsuk-pagination__link .nhsuk-icon, #content .page-style--magistrates-teal .navigation .nhsuk-pagination ul.nhsuk-pagination__list li.nhsuk-pagination-item--next a .nhsuk-icon,
+#content .page-style--magistrates-teal .navigation .nhsuk-pagination ul.nhsuk-pagination__list li.nhsuk-pagination-item--previous a .nhsuk-icon,
+#content .page-style--magistrates-teal .nhsuk-pagination__link .nhsuk-icon {
+  fill: #336C83;
+}
+
+@media (min-width: 40.0625em) {
+  .page-colour--magistrates-teal .nhsuk-icon__search, #content .page-style--magistrates-teal .nhsuk-icon__search {
+    fill: #336C83;
+  }
+}
+
+.page-colour--magistrates-teal #secondary section ul > li > ul > li > a, #content .page-style--magistrates-teal #secondary section ul > li > ul > li > a {
+  border-left: 2px solid #336C83;
+}
+
+.page-colour--magistrates-teal .gform_wrapper .gf_progressbar_wrapper .gf_progressbar .gf_progressbar_percentage, #content .page-style--magistrates-teal .gform_wrapper .gf_progressbar_wrapper .gf_progressbar .gf_progressbar_percentage {
+  background-color: #336C83;
+}
+
+.page-colour--magistrates-teal .nhsuk-header .nhsuk-header__navigation {
+  background: #336C83;
+}
+
+.page-colour--magistrates-teal .nhsuk-header .nhsuk-header__navigation-link:hover, .page-colour--magistrates-teal .nhsuk-header .nhsuk-header__navigation ul li a:hover, .page-colour--magistrates-teal .nhsuk-header .nhsuk-search__submit:hover {
+  background-color: #1e3f4c;
+  background: #1e3f4c;
+}
+
+.page-colour--magistrates-teal .nhsuk-header .nhsuk-header__menu-toggle:focus, .page-colour--magistrates-teal .nhsuk-header .nhsuk-header__menu-toggle:hover, .page-colour--magistrates-teal .nhsuk-header .nhsuk-header__menu-toggle.is-active, .page-colour--magistrates-teal .nhsuk-header .nhsuk-header__menu-toggle:active, .page-colour--magistrates-teal .nhsuk-header .nhsuk-header__search-toggle:hover, .page-colour--magistrates-teal .nhsuk-header .nhsuk-header__search-toggle:focus, .page-colour--magistrates-teal .nhsuk-header .nhsuk-header__search-toggle.is-active, .page-colour--magistrates-teal .nhsuk-header .nhsuk-header__search-toggle:active {
+  background-color: #1e3f4c;
+  background: #1e3f4c;
+  color: #ffffff;
+}
+
+.page-colour--magistrates-teal .nhsuk-header.nhsuk-header--white {
+  background-color: #ffffff;
+  color: #336C83;
+}
+
+.page-colour--magistrates-teal .nhsuk-header.nhsuk-header--white a.nhsuk-header__transactional-service-name--link {
+  color: #336C83;
+}
+
+.page-colour--magistrates-teal .nhsuk-header.nhsuk-header--white .nhsuk-header__menu-toggle {
+  background-color: #ffffff;
+  background: #ffffff;
+  color: #336C83;
+}
+
+.page-colour--magistrates-teal .nhsuk-header.nhsuk-header--white .nhsuk-header__menu-toggle.is-active, .page-colour--magistrates-teal .nhsuk-header.nhsuk-header--white .nhsuk-header__menu-toggle:active, .page-colour--magistrates-teal .nhsuk-header.nhsuk-header--white .nhsuk-header__search-toggle.is-active, .page-colour--magistrates-teal .nhsuk-header.nhsuk-header--white .nhsuk-header__search-toggle:active {
+  color: #ffffff;
+}
+
+.page-colour--magistrates-teal .nhsuk-header.nhsuk-header--white .nhsuk-header__menu .nhsuk-header__menu-toggle {
+  border-color: #336C83;
+  color: #336C83;
+}
+
+.page-colour--magistrates-teal .nhsuk-header.nhsuk-header--white .nhsuk-header__search-toggle {
+  border-color: #336C83;
+  color: #336C83;
+}
+
+.page-colour--magistrates-teal .nhsuk-header.nhsuk-header--white .nhsuk-header__search-toggle .nhsuk-icon__search {
+  fill: #336C83;
+}
+
+.page-colour--magistrates-teal .nhsuk-header.nhsuk-header--white .nhsuk-header__search-toggle.is_active {
+  background-color: #336C83;
+}
+
+.page-colour--magistrates-teal .nhsuk-header .nhsuk-icon__close {
+  fill: #336C83;
+}
+
+@media (max-width: 769px) {
+  .page-colour--magistrates-teal .nhsuk-header .nhsuk-header__navigation ul li a, .page-colour--magistrates-teal .nhsuk-header .nhsuk-header__navigation-link {
+    color: #336C83;
+  }
+  .page-colour--magistrates-teal .nhsuk-header .nhsuk-header__navigation, .page-colour--magistrates-teal .nhsuk-header .nhsuk-header__navigation-link:hover, .page-colour--magistrates-teal .nhsuk-header .nhsuk-header .nhsuk-header__navigation ul li a:hover {
+    background-color: #ffffff;
+    background: #ffffff;
+  }
+}

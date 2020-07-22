@@ -185,6 +185,7 @@ function nightingale_custom_page_colour( $classes ) {
 			'78be20' => 'light-green',
 			'00a499' => 'aqua-green',
 			'0b0c0c' => 'gds-black',
+            '336c83' => 'magistrates-teal',
 		);
 		$theme_colour_name = 'page-colour--' . $colour_array[ $colour ];
 		$classes[]         = $theme_colour_name;
