@@ -15,6 +15,7 @@ $color_nhsuk-light-purple : #704c9c;
 $color_nhsuk-light-green  : #78be20;
 $color_nhsuk-dark-green   : #006747;
 $color_gds_black          : #0b0c0c;
+$color_magi_teal          : #336C83;
 $page-colours             : (
 		'nhs-blue' : $color_nhsuk-blue,
 		'dark-blue' : $color_nhsuk_dark-blue,
@@ -30,6 +31,7 @@ $page-colours             : (
 		'light-green' : $color_nhsuk-light-green,
 		'aqua-green' : $color_nhsuk-aqua-green,
 		'gds-black' : $color_gds_black,
+		'magistrates-teal' : $color_magi_teal,
 );
 @each $name, $colour in $page-colours {
 

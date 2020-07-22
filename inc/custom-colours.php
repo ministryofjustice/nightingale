@@ -14,6 +14,7 @@ function nightingale_get_theme_colours() {
 	return array(
 		''       => esc_html__( 'Inherit site wide colour settings', 'nightingale' ),
 		'005eb8' => esc_html__( 'NHS Blue', 'nightingale' ),
+        '336c83' => esc_html__( 'Magistrates Teal', 'nightingale' ),
 		'003087' => esc_html__( 'Dark Blue', 'nightingale' ),
 		'0072ce' => esc_html__( 'Bright Blue', 'nightingale' ),
 		'768692' => esc_html__( 'Mid Grey', 'nightingale' ),
@@ -29,7 +30,6 @@ function nightingale_get_theme_colours() {
 		'0b0c0c' => esc_html__( 'GDS Black', 'nightingale' ),
 	);
 }
-
 
 // -- Disable Custom Colors
 add_action( 'after_setup_theme', 'nightingale_prefix_register_colors' );
@@ -47,6 +47,11 @@ function nightingale_prefix_register_colors() {
 				'slug'  => 'nhs_blue',
 				'color' => '#005eb8',
 			),
+            array(
+                'name'  => esc_html__( 'Magistrates Teal', 'nightingale' ),
+                'slug'  => 'magistrates_teal',
+                'color' => '#336c83',
+            ),
 			array(
 				'name'  => esc_html__( 'NHS Dark Blue', 'nightingale' ),
 				'slug'  => 'nhs_dark_blue',
