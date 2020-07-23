@@ -384,7 +384,6 @@ function nightingale_add_blog_settings( $wp_customize ) {
 
 add_action( 'customize_register', 'nightingale_add_blog_settings' );
 
-
 /**
  * Clean the date output up.
  *
@@ -424,3 +423,53 @@ function nightingale_customize_preview_js() {
 }
 
 add_action( 'customize_preview_init', 'nightingale_customize_preview_js' );
+
+
+add_action( 'customize_register', 'nightingale_add_typography_settings' );
+
+function nightingale_add_typography_settings( $wp_customize )
+{
+    $wp_customize->add_section(
+        'typography_panel',
+        array(
+            'title' => esc_html__('Typography', 'nightingale'),
+            'description' => esc_html__('Typography settings', 'nightingale'),
+            'capability' => 'edit_theme_options',
+            'theme-supports' => '',
+            'priority' => '151',
+        )
+    );
+
+
+    $wp_customize->add_setting(
+    // $id
+        'primary_font',
+        // $args
+        array(
+            'default'           => 'true',
+            'type'              => 'theme_mod',
+            'capability'        => 'edit_theme_options',
+            'sanitize_callback' => 'nightingale_sanitize_select',
+        )
+    );
+
+
+    $wp_customize->add_control(
+    // $id
+        'primary_font',
+        // $args
+        array(
+            'settings'    => 'primary_font',
+            'section'     => 'typography_panel',
+            'type'        => 'select',
+            'label'       => esc_html__( 'Primary Font', 'nightingale' ),
+            'description' => esc_html__( 'Main font used on headings and text', 'nightingale' ),
+            'choices'     => array(
+                'frutiger'  => esc_html__( 'Frutiger', 'nightingale' ),
+                'pt-sans' => esc_html__( 'PT Sans', 'nightingale' ),
+            ),
+        )
+    );
+
+
+}

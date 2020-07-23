@@ -195,3 +195,16 @@ function nightingale_custom_page_colour( $classes ) {
 }
 
 add_filter( 'body_class', 'nightingale_custom_page_colour' );
+
+
+function nightingale_custom_typography( $classes ) {
+    $font = get_theme_mod( 'primary_font', 'frutiger' );
+    if ( !empty($font) ) {
+        $font_class = 'primary-font--'. $font;
+        $classes[]         = $font_class;
+    }
+
+    return $classes;
+}
+
+add_filter( 'body_class', 'nightingale_custom_typography' );
