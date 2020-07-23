@@ -33,6 +33,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
    * 1. Correct the line height in all browsers.
    * 2. Prevent adjustments of font size after orientation changes in iOS.
    */
+@import url(https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap);
 html {
   line-height: 1.15;
   /* 1 */
@@ -11901,6 +11902,10 @@ aside#secondary > section {
 
 #ld_course_categorydropdown #ld_course_categorydropdown_select {
   height: 40px;
+}
+
+.primary-font--pt-sans {
+  font-family: "PT Sans", sans-serif;
 }
 
 /* Events Calendar Styles */
