@@ -11908,6 +11908,81 @@ aside#secondary > section {
   font-family: "PT Sans", sans-serif;
 }
 
+.primary-font--pt-sans {
+  font-size: 100%;
+}
+
+.primary-font--pt-sans h1 {
+  font-size: 1.875rem;
+}
+
+@media (min-width: 40.0625em) {
+  .primary-font--pt-sans h1 {
+    font-size: 3rem;
+  }
+}
+
+.primary-font--pt-sans h2 {
+  font-size: 1.625rem;
+}
+
+@media (min-width: 40.0625em) {
+  .primary-font--pt-sans h2 {
+    font-size: 2.625rem;
+  }
+}
+
+.primary-font--pt-sans h3 {
+  font-size: 1.375rem;
+}
+
+@media (min-width: 40.0625em) {
+  .primary-font--pt-sans h3 {
+    font-size: 2.25rem;
+  }
+}
+
+.primary-font--pt-sans h4 {
+  font-size: 1.125rem;
+}
+
+@media (min-width: 40.0625em) {
+  .primary-font--pt-sans h4 {
+    font-size: 1.75rem;
+  }
+}
+
+.primary-font--pt-sans p, .primary-font--pt-sans .tribe-common .nhsuk-promo-group p.nhsuk-promo__description, .tribe-common .nhsuk-promo-group .primary-font--pt-sans p.nhsuk-promo__description {
+  font-size: 1rem;
+}
+
+@media (min-width: 40.0625em) {
+  .primary-font--pt-sans p, .primary-font--pt-sans .tribe-common .nhsuk-promo-group p.nhsuk-promo__description, .tribe-common .nhsuk-promo-group .primary-font--pt-sans p.nhsuk-promo__description {
+    font-size: 1.125rem;
+  }
+}
+
+.primary-font--pt-sans blockquote {
+  font-style: italic;
+  font-size: 1.25rem;
+}
+
+@media (min-width: 40.0625em) {
+  .primary-font--pt-sans blockquote {
+    font-size: 1.5rem;
+  }
+}
+
+.primary-font--pt-sans .intro {
+  font-size: 1.25rem;
+}
+
+@media (min-width: 40.0625em) {
+  .primary-font--pt-sans .intro {
+    font-size: 1.5rem;
+  }
+}
+
 /* Events Calendar Styles */
 .tribe-common div.nhsuk-grid-column-two-thirds {
   padding-left: 0;
