@@ -52,6 +52,7 @@ $fonts: (
   }
 
   p {
+
     font-size: 1rem;
 
     @include mq($from: tablet) {
@@ -62,8 +63,8 @@ $fonts: (
   }
 
   blockquote {
+    
     font-style: italic;
-
     font-size: 1.25rem;
 
     @include mq($from: tablet) {
