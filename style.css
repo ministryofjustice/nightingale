@@ -10748,6 +10748,50 @@ textarea:focus, #login #loginform .user-login:focus, #login #loginform .user_pas
 }
 
 /* end of header.scss include */
+.nightingale-banner__container {
+  padding: 20px 0;
+}
+
+.nightingale-banner__container .nightingale-banner__title {
+  margin-bottom: 18px;
+  font-size: 1.875rem;
+  font-weight: 600;
+}
+
+@media (min-width: 40.0625em) {
+  .nightingale-banner__container .nightingale-banner__title {
+    font-size: 3rem;
+    line-height: 1.16667;
+  }
+}
+
+@media (min-width: 40.0625em) {
+  .nightingale-banner__container .nightingale-banner__link {
+    float: right;
+  }
+}
+
+.nightingale-banner__container .yellow-button {
+  background: #FFDD00;
+  color: #000000;
+  padding: 6px 12px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.25rem;
+  display: block;
+  text-align: center;
+}
+
+@media (min-width: 40.0625em) {
+  .nightingale-banner__container .yellow-button {
+    font-size: 1.5rem;
+    margin-top: 7px;
+    text-align: left;
+    padding: 3px 12px;
+  }
+}
+
+/* end of banner.scss include */
 .nhsuk-footer__copyright_img {
   text-align: center;
 }
