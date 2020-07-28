@@ -364,7 +364,7 @@ require get_template_directory() . '/inc/color-picker.php';
 require get_template_directory() . '/inc/last-reviewed.php';
 
 /**
- * Color Picker.
+ * Social Widget.
  */
 require get_template_directory() . '/inc/social-widget.php';
 
