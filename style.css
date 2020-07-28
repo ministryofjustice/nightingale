@@ -10748,6 +10748,50 @@ textarea:focus, #login #loginform .user-login:focus, #login #loginform .user_pas
 }
 
 /* end of header.scss include */
+.nightingale-banner__container {
+  padding: 20px 0;
+}
+
+.nightingale-banner__container .nightingale-banner__title {
+  margin-bottom: 18px;
+  font-size: 1.875rem;
+  font-weight: 600;
+}
+
+@media (min-width: 40.0625em) {
+  .nightingale-banner__container .nightingale-banner__title {
+    font-size: 3rem;
+    line-height: 1.16667;
+  }
+}
+
+@media (min-width: 40.0625em) {
+  .nightingale-banner__container .nightingale-banner__link {
+    float: right;
+  }
+}
+
+.nightingale-banner__container .yellow-button {
+  background: #FFDD00;
+  color: #000000;
+  padding: 6px 12px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.25rem;
+  display: block;
+  text-align: center;
+}
+
+@media (min-width: 40.0625em) {
+  .nightingale-banner__container .yellow-button {
+    font-size: 1.5rem;
+    margin-top: 7px;
+    text-align: left;
+    padding: 3px 12px;
+  }
+}
+
+/* end of banner.scss include */
 .nhsuk-footer__copyright_img {
   text-align: center;
 }
@@ -11906,6 +11950,81 @@ aside#secondary > section {
 
 .primary-font--pt-sans {
   font-family: "PT Sans", sans-serif;
+}
+
+.primary-font--pt-sans {
+  font-size: 100%;
+}
+
+.primary-font--pt-sans h1 {
+  font-size: 1.875rem;
+}
+
+@media (min-width: 40.0625em) {
+  .primary-font--pt-sans h1 {
+    font-size: 3rem;
+  }
+}
+
+.primary-font--pt-sans h2 {
+  font-size: 1.625rem;
+}
+
+@media (min-width: 40.0625em) {
+  .primary-font--pt-sans h2 {
+    font-size: 2.625rem;
+  }
+}
+
+.primary-font--pt-sans h3 {
+  font-size: 1.375rem;
+}
+
+@media (min-width: 40.0625em) {
+  .primary-font--pt-sans h3 {
+    font-size: 2.25rem;
+  }
+}
+
+.primary-font--pt-sans h4 {
+  font-size: 1.125rem;
+}
+
+@media (min-width: 40.0625em) {
+  .primary-font--pt-sans h4 {
+    font-size: 1.75rem;
+  }
+}
+
+.primary-font--pt-sans p, .primary-font--pt-sans .tribe-common .nhsuk-promo-group p.nhsuk-promo__description, .tribe-common .nhsuk-promo-group .primary-font--pt-sans p.nhsuk-promo__description {
+  font-size: 1rem;
+}
+
+@media (min-width: 40.0625em) {
+  .primary-font--pt-sans p, .primary-font--pt-sans .tribe-common .nhsuk-promo-group p.nhsuk-promo__description, .tribe-common .nhsuk-promo-group .primary-font--pt-sans p.nhsuk-promo__description {
+    font-size: 1.125rem;
+  }
+}
+
+.primary-font--pt-sans blockquote {
+  font-style: italic;
+  font-size: 1.25rem;
+}
+
+@media (min-width: 40.0625em) {
+  .primary-font--pt-sans blockquote {
+    font-size: 1.5rem;
+  }
+}
+
+.primary-font--pt-sans .intro {
+  font-size: 1.25rem;
+}
+
+@media (min-width: 40.0625em) {
+  .primary-font--pt-sans .intro {
+    font-size: 1.5rem;
+  }
 }
 
 /* Events Calendar Styles */
