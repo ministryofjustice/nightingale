@@ -27,6 +27,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 @import 'assets/scss/default';
 @import 'assets/scss/nhsuk-replacement';
 
+@import 'assets/scss/variables';
 
 // start importing the theme specific settings
 @import 'assets/scss/nhs-colours';
@@ -68,3 +69,4 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 @import 'assets/scss/nhsblocks/stripe-blocks';//gutenberg blocks stripe
 // nhs colour pallette
 @import 'assets/scss/color-mixer';
+@import 'assets/scss/icons';
