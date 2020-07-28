@@ -17,23 +17,23 @@ class social_widget extends WP_Widget {
             echo $args['before_title'] . $title . $args['after_title'];
 
         if ( ! empty( $instance['facebook_url'] ) ){
-            echo '<a href="' . $instance['facebook_url']  . '"><i class="facebook"></i></a>';
+            echo '<a href="' . $instance['facebook_url']  . '"><span class="nhsuk-u-visually-hidden">Facebook social link</span><i class="facebook" aria-hidden="true"></i></a>';
         }
 
         if ( ! empty( $instance['instagram_url'] ) ){
-            echo '<a href="' . $instance['instagram_url']  . '"><i class="instagram"></i></a>';
+            echo '<a href="' . $instance['instagram_url']  . '"><span class="nhsuk-u-visually-hidden">Instagram social link</span><i class="instagram" aria-hidden="true"></i></a>';
         }
 
         if ( ! empty( $instance['linkedin_url'] ) ){
-            echo '<a href="' . $instance['linkedin_url']  . '"><i class="linkedin"></i></a>';
+            echo '<a href="' . $instance['linkedin_url']  . '"><span class="nhsuk-u-visually-hidden">Linkedin social link</span><i class="linkedin" aria-hidden="true"></i></a>';
         }
 
         if ( ! empty( $instance['twitter_url'] ) ){
-            echo '<a href="' . $instance['twitter_url']  . '"><i class="twitter"></i></a>';
+            echo '<a href="' . $instance['twitter_url']  . '"><span class="nhsuk-u-visually-hidden">Twitter social link</span><i class="twitter" aria-hidden="true"></i></a>';
         }
 
         if ( ! empty( $instance['youtube_url'] ) ){
-            echo '<a href="' . $instance['youtube_url']  . '"><i class="youtube"></i></a>';
+            echo '<a href="' . $instance['youtube_url']  . '"><span class="nhsuk-u-visually-hidden">YouTube social link</span><i class="youtube" aria-hidden="true"></i></a>';
         }
 
         echo $args['after_widget'];
