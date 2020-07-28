@@ -364,6 +364,11 @@ require get_template_directory() . '/inc/color-picker.php';
 require get_template_directory() . '/inc/last-reviewed.php';
 
 /**
+ * Color Picker.
+ */
+require get_template_directory() . '/inc/social-widget.php';
+
+/**
  * Create an array of active plugins.
  */
 

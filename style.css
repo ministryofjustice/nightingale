@@ -10800,6 +10800,21 @@ textarea:focus, #login #loginform .user-login:focus, #login #loginform .user_pas
   max-width: 50%;
 }
 
+.nhsuk-footer .widget_social_widget {
+  font-size: 2.5rem;
+}
+
+.nhsuk-footer .widget_social_widget a {
+  color: #454A4C;
+  margin-right: 12px;
+}
+
+.nhsuk-footer .widget_social_widget a:focus {
+  background-color: transparent;
+  box-shadow: none;
+  color: #ffeb3b;
+}
+
 /*
 // variations to styling required for gutenberg native blocks
 // @author Tony Blacker, NHS Leadership Academy
