@@ -92,7 +92,7 @@ class social_widget extends WP_Widget {
             <input class="widefat" id="<?php echo $this->get_field_id( 'twitter_url' ); ?>" name="<?php echo $this->get_field_name( 'twitter_url' ); ?>" type="text" value="<?php echo esc_attr( $twitter_url ); ?>" />
         </p>
         <p>
-            <label for="<?php echo $this->get_field_id( 'youtube_url' ); ?>"><?php _e( 'Youtube Url:' ); ?></label>
+            <label for="<?php echo $this->get_field_id( 'youtube_url' ); ?>"><?php _e( 'YouTube Url:' ); ?></label>
             <input class="widefat" id="<?php echo $this->get_field_id( 'youtube_url' ); ?>" name="<?php echo $this->get_field_name( 'youtube_url' ); ?>" type="text" value="<?php echo esc_attr( $youtube_url ); ?>" />
         </p>
         <?php
