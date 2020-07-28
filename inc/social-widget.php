@@ -1,5 +1,4 @@
 <?php
-// Creating the widget
 class social_widget extends WP_Widget {
 
     function __construct() {
