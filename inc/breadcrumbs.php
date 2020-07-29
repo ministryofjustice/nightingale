@@ -79,7 +79,10 @@ function nightingale_uncanny_breadcrumb_check() {
  */
 function nightingale_breadcrumb() {
 	global $wp_query;
-	if ( ! is_home() ) {
+
+    $show_breadcrumb = get_theme_mod('show_breadcrumb', 'yes');
+
+	if ( ! is_home() && $show_breadcrumb == 'yes') {
 
 		if ( ! is_front_page() ) {
 			$back_one_level = array( esc_url( home_url() ), __( 'Home', 'nightingale' ) );
