@@ -76,6 +76,32 @@ function nightingale_customize_register( $wp_customize ) {
 	);
 
     /*
+   * -----------------------------------------------------------
+   * SHOW / HIDE Main Menu
+   * -----------------------------------------------------------
+   */
+    $wp_customize->add_setting(
+        'show_header_menu',
+        array(
+            'default'           => 'yes',
+            'sanitize_callback' => 'nightingale_sanitize_select',
+        )
+    );
+    $wp_customize->add_control(
+        'show_header_menu',
+        array(
+            'label'       => esc_html__( 'Show Menu?', 'nightingale' ),
+            'description' => esc_html__( 'Would you like to show the main menu in the header?', 'nightingale' ),
+            'section'     => 'section_header',
+            'type'        => 'radio',
+            'choices'     => array(
+                'yes' => esc_html__( 'Yes', 'nightingale' ),
+                'no'  => esc_html__( 'No', 'nightingale' ),
+            ),
+        )
+    );
+
+    /*
      * -----------------------------------------------------------
      * SHOW / HIDE Banner
      * -----------------------------------------------------------
@@ -234,6 +260,32 @@ function nightingale_customize_register( $wp_customize ) {
 			),
 		)
 	);
+
+    /*
+     * -----------------------------------------------------------
+     * SHOW / HIDE Breadcrumb
+     * -----------------------------------------------------------
+     */
+    $wp_customize->add_setting(
+        'show_breadcrumb',
+        array(
+            'default'           => 'yes',
+            'sanitize_callback' => 'nightingale_sanitize_select',
+        )
+    );
+    $wp_customize->add_control(
+        'show_breadcrumb',
+        array(
+            'label'       => esc_html__( 'Show Breadcrumb?', 'nightingale' ),
+            'description' => esc_html__( 'Would you like to show the breadcrumb section on the site?', 'nightingale' ),
+            'section'     => 'section_header',
+            'type'        => 'radio',
+            'choices'     => array(
+                'yes' => esc_html__( 'Yes', 'nightingale' ),
+                'no'  => esc_html__( 'No', 'nightingale' ),
+            ),
+        )
+    );
 
 	/*
 	 * Show Organisation Name?
