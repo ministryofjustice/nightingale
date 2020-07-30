@@ -9,12 +9,17 @@
  * @version 1.1 21st August 2019
  */
 
+$show_title = get_post_meta(get_the_ID(), 'display-page-title', true);
+
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header">
-		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-	</header><!-- .entry-header -->
+
+    <?php if($show_title != 'no' && is_front_page() == false){ ?>
+        <header class="entry-header">
+            <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+        </header><!-- .entry-header -->
+    <?php } ?>
 
 
 	<div class="entry-content">
