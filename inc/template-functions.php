@@ -211,6 +211,12 @@ add_filter( 'body_class', 'nightingale_custom_typography' );
 
 function nightingale_admin_custom_typography( $classes ) {
 
+    global $pagenow;
+    
+    if ( 'post.php' !== $pagenow && 'post-new.php' !== $pagenow ) {
+        return;
+    }
+
     $font = get_theme_mod( 'primary_font', 'frutiger' );
     if ( !empty($font) ) {
         $font_class = 'primary-font-admin--' . $font;

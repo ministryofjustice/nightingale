@@ -12032,12 +12032,12 @@ aside#secondary > section {
   }
 }
 
-.primary-font--pt-sans .intro {
+.primary-font--pt-sans .intro, .primary-font--pt-sans .intro p, .primary-font--pt-sans .intro .tribe-common .nhsuk-promo-group p.nhsuk-promo__description, .tribe-common .nhsuk-promo-group .primary-font--pt-sans .intro p.nhsuk-promo__description {
   font-size: 1.25rem;
 }
 
 @media (min-width: 40.0625em) {
-  .primary-font--pt-sans .intro {
+  .primary-font--pt-sans .intro, .primary-font--pt-sans .intro p, .primary-font--pt-sans .intro .tribe-common .nhsuk-promo-group p.nhsuk-promo__description, .tribe-common .nhsuk-promo-group .primary-font--pt-sans .intro p.nhsuk-promo__description {
     font-size: 1.5rem;
   }
 }
