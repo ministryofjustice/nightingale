@@ -364,6 +364,11 @@ require get_template_directory() . '/inc/color-picker.php';
 require get_template_directory() . '/inc/last-reviewed.php';
 
 /**
+ * Page Title Settings Metabox
+ */
+require get_template_directory() . '/inc/metabox-page-title.php';
+
+/**
  * Social Widget.
  */
 require get_template_directory() . '/inc/social-widget.php';
