@@ -208,3 +208,24 @@ function nightingale_custom_typography( $classes ) {
 }
 
 add_filter( 'body_class', 'nightingale_custom_typography' );
+
+function nightingale_admin_custom_typography( $classes ) {
+
+    global $pagenow;
+    
+    if ( 'post.php' !== $pagenow && 'post-new.php' !== $pagenow ) {
+        return;
+    }
+
+    $font = get_theme_mod( 'primary_font', 'frutiger' );
+    if ( !empty($font) ) {
+        $font_class = 'primary-font-admin--' . $font;
+
+        $classes = "$classes $font_class";
+    }
+
+    return $classes;
+
+}
+
+add_filter( 'admin_body_class', 'nightingale_admin_custom_typography', 10, 1);

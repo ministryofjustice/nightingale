@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url(https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap);
 .edit-post-visual-editor, .block-editor-block-styles, .block-editor-inserter__menu-help-panel {
   /* ==========================================================================
    GENERIC / #BOX-SIZING
@@ -14452,4 +14453,83 @@
 
 .edit-post-visual-editor .has-gds-black-background-color, .block-editor-block-styles .has-gds-black-background-color, .block-editor-inserter__menu-help-panel .has-gds-black-background-color {
   background-color: "#0b0c0c";
+}
+
+.primary-font-admin--pt-sans .edit-post-visual-editor .block-editor-block-list__block, .primary-font-admin--pt-sans .block-editor-block-styles .block-editor-block-list__block {
+  font-family: "PT Sans", sans-serif;
+}
+
+.primary-font-admin--pt-sans .edit-post-visual-editor .block-editor-block-list__block, .primary-font-admin--pt-sans .block-editor-block-styles .block-editor-block-list__block {
+  font-size: 100%;
+}
+
+.primary-font-admin--pt-sans .edit-post-visual-editor .block-editor-block-list__block h1, .primary-font-admin--pt-sans .edit-post-visual-editor .block-editor-block-list__block .editor-post-title__input, .primary-font-admin--pt-sans .block-editor-block-styles .block-editor-block-list__block h1, .primary-font-admin--pt-sans .block-editor-block-styles .block-editor-block-list__block .editor-post-title__input {
+  font-size: 1.875rem;
+}
+
+@media (min-width: 46.25em) {
+  .primary-font-admin--pt-sans .edit-post-visual-editor .block-editor-block-list__block h1, .primary-font-admin--pt-sans .edit-post-visual-editor .block-editor-block-list__block .editor-post-title__input, .primary-font-admin--pt-sans .block-editor-block-styles .block-editor-block-list__block h1, .primary-font-admin--pt-sans .block-editor-block-styles .block-editor-block-list__block .editor-post-title__input {
+    font-size: 3rem;
+  }
+}
+
+.primary-font-admin--pt-sans .edit-post-visual-editor .block-editor-block-list__block h2, .primary-font-admin--pt-sans .block-editor-block-styles .block-editor-block-list__block h2 {
+  font-size: 1.625rem;
+}
+
+@media (min-width: 46.25em) {
+  .primary-font-admin--pt-sans .edit-post-visual-editor .block-editor-block-list__block h2, .primary-font-admin--pt-sans .block-editor-block-styles .block-editor-block-list__block h2 {
+    font-size: 2.625rem;
+  }
+}
+
+.primary-font-admin--pt-sans .edit-post-visual-editor .block-editor-block-list__block h3, .primary-font-admin--pt-sans .block-editor-block-styles .block-editor-block-list__block h3 {
+  font-size: 1.375rem;
+}
+
+@media (min-width: 46.25em) {
+  .primary-font-admin--pt-sans .edit-post-visual-editor .block-editor-block-list__block h3, .primary-font-admin--pt-sans .block-editor-block-styles .block-editor-block-list__block h3 {
+    font-size: 2.25rem;
+  }
+}
+
+.primary-font-admin--pt-sans .edit-post-visual-editor .block-editor-block-list__block h4, .primary-font-admin--pt-sans .block-editor-block-styles .block-editor-block-list__block h4 {
+  font-size: 1.125rem;
+}
+
+@media (min-width: 46.25em) {
+  .primary-font-admin--pt-sans .edit-post-visual-editor .block-editor-block-list__block h4, .primary-font-admin--pt-sans .block-editor-block-styles .block-editor-block-list__block h4 {
+    font-size: 1.75rem;
+  }
+}
+
+.primary-font-admin--pt-sans .edit-post-visual-editor .block-editor-block-list__block p, .primary-font-admin--pt-sans .block-editor-block-styles .block-editor-block-list__block p {
+  font-size: 1rem;
+}
+
+@media (min-width: 46.25em) {
+  .primary-font-admin--pt-sans .edit-post-visual-editor .block-editor-block-list__block p, .primary-font-admin--pt-sans .block-editor-block-styles .block-editor-block-list__block p {
+    font-size: 1.125rem;
+  }
+}
+
+.primary-font-admin--pt-sans .edit-post-visual-editor .block-editor-block-list__block blockquote, .primary-font-admin--pt-sans .block-editor-block-styles .block-editor-block-list__block blockquote {
+  font-style: italic;
+  font-size: 1.25rem;
+}
+
+@media (min-width: 46.25em) {
+  .primary-font-admin--pt-sans .edit-post-visual-editor .block-editor-block-list__block blockquote, .primary-font-admin--pt-sans .block-editor-block-styles .block-editor-block-list__block blockquote {
+    font-size: 1.5rem;
+  }
+}
+
+.primary-font-admin--pt-sans .edit-post-visual-editor .block-editor-block-list__block .intro, .primary-font-admin--pt-sans .edit-post-visual-editor .block-editor-block-list__block .intro p, .primary-font-admin--pt-sans .block-editor-block-styles .block-editor-block-list__block .intro, .primary-font-admin--pt-sans .block-editor-block-styles .block-editor-block-list__block .intro p {
+  font-size: 1.25rem;
+}
+
+@media (min-width: 46.25em) {
+  .primary-font-admin--pt-sans .edit-post-visual-editor .block-editor-block-list__block .intro, .primary-font-admin--pt-sans .edit-post-visual-editor .block-editor-block-list__block .intro p, .primary-font-admin--pt-sans .block-editor-block-styles .block-editor-block-list__block .intro, .primary-font-admin--pt-sans .block-editor-block-styles .block-editor-block-list__block .intro p {
+    font-size: 1.5rem;
+  }
 }
