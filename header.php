@@ -62,14 +62,19 @@ echo '<header class="nhsuk-header nhsuk-header--' . esc_attr( $header_layout . $
 		} else {
 			$headersearchextra = '';
 		}
-		?>
-		<div class="nhsuk-header__menu <?php echo esc_attr( $headersearchextra ); ?>">
-			<button class="nhsuk-header__menu-toggle" id="toggle-menu" aria-controls="header-navigation"
-					aria-label="Open menu">Menu
-			</button>
-		</div>
 
-		<?php
+        $show_header_menu = get_theme_mod('show_header_menu', 'yes');
+        if ($show_header_menu == 'yes') {
+            ?>
+            <div class="nhsuk-header__menu <?php echo esc_attr($headersearchextra); ?>">
+                <button class="nhsuk-header__menu-toggle" id="toggle-menu" aria-controls="header-navigation"
+                        aria-label="Open menu">Menu
+                </button>
+            </div>
+
+            <?php
+        }
+
 		if ( 'yes' === $header_search ) {
 			?>
 			<div class="nhsuk-header__search">
@@ -97,10 +102,18 @@ $page_color = get_post_meta( get_the_id(), 'page-color', true );
 
 $extra_styles = $page_color ? 'page-style--' . $page_color : '';
 
+$header_clearance_style = '';
+
+$header_clearance = get_post_meta( get_the_id(), 'page-header-clearance', true );
+
+if(!empty($header_clearance) && $header_clearance == 'no'){
+    $header_clearance_style = 'nhsuk-main-wrapper--no-header-clearance';
+}
+
 ?>
 
 <div id="content" class="nhsuk-width-container nhsuk-width-container--full">
-	<main class="nhsuk-main-wrapper nhsuk-main-wrapper--no-padding <?php echo esc_attr( $extra_styles ); ?>" id="maincontent">
+	<main class="nhsuk-main-wrapper nhsuk-main-wrapper--no-padding <?php echo esc_attr( $extra_styles ); ?> <?php echo esc_attr( $header_clearance_style ); ?>" id="maincontent">
 		<div id="contentinner" class="nhsuk-width-container">
 			<?php flush(); ?>
 

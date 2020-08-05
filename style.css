@@ -10747,6 +10747,14 @@ textarea:focus, #login #loginform .user-login:focus, #login #loginform .user_pas
   text-decoration: none;
 }
 
+.nhsuk-main-wrapper--no-header-clearance {
+  padding-top: 0px;
+}
+
+.nhsuk-main-wrapper--no-header-clearance .entry-content {
+  margin-top: 0;
+}
+
 /* end of header.scss include */
 .nightingale-banner__container {
   padding: 20px 0;
@@ -10762,6 +10770,7 @@ textarea:focus, #login #loginform .user-login:focus, #login #loginform .user_pas
   .nightingale-banner__container .nightingale-banner__title {
     font-size: 3rem;
     line-height: 1.16667;
+    margin-bottom: 0;
   }
 }
 
