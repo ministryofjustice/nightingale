@@ -227,4 +227,12 @@
 	text-decoration : none;
   }
 }
+
+.nhsuk-main-wrapper--no-header-clearance {
+	padding-top: 0px;
+
+	.entry-content {
+		margin-top: 0;
+	}
+}
 /* end of header.scss include */
