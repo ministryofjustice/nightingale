@@ -10760,6 +10760,18 @@ textarea:focus, #login #loginform .user-login:focus, #login #loginform .user_pas
   padding: 20px 0;
 }
 
+@media (min-width: 40.0625em) {
+  .nightingale-banner__container .nhsuk-grid-column-two-thirds, .nightingale-banner__container .tribe-common div.nhsuk-grid-column-two-thirds, .tribe-common .nightingale-banner__container div.nhsuk-grid-column-two-thirds {
+    padding: 0;
+  }
+}
+
+@media (min-width: 40.0625em) and (min-width: 40.0625em) {
+  .nightingale-banner__container .nhsuk-grid-column-two-thirds, .nightingale-banner__container .tribe-common div.nhsuk-grid-column-two-thirds, .tribe-common .nightingale-banner__container div.nhsuk-grid-column-two-thirds {
+    padding: 0;
+  }
+}
+
 .nightingale-banner__container .nightingale-banner__title {
   margin-bottom: 18px;
   font-size: 1.875rem;
@@ -10822,6 +10834,19 @@ textarea:focus, #login #loginform .user-login:focus, #login #loginform .user_pas
   background-color: transparent;
   box-shadow: none;
   color: #ffeb3b;
+}
+
+/* Style Variation - Overrides NHS DS Frontend styles */
+html, body {
+  background-color: #ffffff;
+}
+
+a {
+  color: #2F80ED;
+}
+
+a:visited {
+  color: #5449D0;
 }
 
 /*
