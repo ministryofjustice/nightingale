@@ -38,11 +38,9 @@
 
 .page-colour--nhs-blue .nhsuk-details__summary,
 .page-colour--nhs-blue .nhsuk-details__summary-text,
-.page-colour--nhs-blue .nhsuk-promo__heading,
-.page-colour--nhs-blue a, #content .page-style--nhs-blue .nhsuk-details__summary,
+.page-colour--nhs-blue .nhsuk-promo__heading, #content .page-style--nhs-blue .nhsuk-details__summary,
 #content .page-style--nhs-blue .nhsuk-details__summary-text,
-#content .page-style--nhs-blue .nhsuk-promo__heading,
-#content .page-style--nhs-blue a {
+#content .page-style--nhs-blue .nhsuk-promo__heading {
   color: #005eb8;
 }
 
@@ -196,11 +194,9 @@
 
 .page-colour--dark-blue .nhsuk-details__summary,
 .page-colour--dark-blue .nhsuk-details__summary-text,
-.page-colour--dark-blue .nhsuk-promo__heading,
-.page-colour--dark-blue a, #content .page-style--dark-blue .nhsuk-details__summary,
+.page-colour--dark-blue .nhsuk-promo__heading, #content .page-style--dark-blue .nhsuk-details__summary,
 #content .page-style--dark-blue .nhsuk-details__summary-text,
-#content .page-style--dark-blue .nhsuk-promo__heading,
-#content .page-style--dark-blue a {
+#content .page-style--dark-blue .nhsuk-promo__heading {
   color: #003087;
 }
 
@@ -354,11 +350,9 @@
 
 .page-colour--bright-blue .nhsuk-details__summary,
 .page-colour--bright-blue .nhsuk-details__summary-text,
-.page-colour--bright-blue .nhsuk-promo__heading,
-.page-colour--bright-blue a, #content .page-style--bright-blue .nhsuk-details__summary,
+.page-colour--bright-blue .nhsuk-promo__heading, #content .page-style--bright-blue .nhsuk-details__summary,
 #content .page-style--bright-blue .nhsuk-details__summary-text,
-#content .page-style--bright-blue .nhsuk-promo__heading,
-#content .page-style--bright-blue a {
+#content .page-style--bright-blue .nhsuk-promo__heading {
   color: #0072ce;
 }
 
@@ -512,11 +506,9 @@
 
 .page-colour--mid-grey .nhsuk-details__summary,
 .page-colour--mid-grey .nhsuk-details__summary-text,
-.page-colour--mid-grey .nhsuk-promo__heading,
-.page-colour--mid-grey a, #content .page-style--mid-grey .nhsuk-details__summary,
+.page-colour--mid-grey .nhsuk-promo__heading, #content .page-style--mid-grey .nhsuk-details__summary,
 #content .page-style--mid-grey .nhsuk-details__summary-text,
-#content .page-style--mid-grey .nhsuk-promo__heading,
-#content .page-style--mid-grey a {
+#content .page-style--mid-grey .nhsuk-promo__heading {
   color: #768692;
 }
 
@@ -670,11 +662,9 @@
 
 .page-colour--dark-grey .nhsuk-details__summary,
 .page-colour--dark-grey .nhsuk-details__summary-text,
-.page-colour--dark-grey .nhsuk-promo__heading,
-.page-colour--dark-grey a, #content .page-style--dark-grey .nhsuk-details__summary,
+.page-colour--dark-grey .nhsuk-promo__heading, #content .page-style--dark-grey .nhsuk-details__summary,
 #content .page-style--dark-grey .nhsuk-details__summary-text,
-#content .page-style--dark-grey .nhsuk-promo__heading,
-#content .page-style--dark-grey a {
+#content .page-style--dark-grey .nhsuk-promo__heading {
   color: #425563;
 }
 
@@ -828,11 +818,9 @@
 
 .page-colour--black .nhsuk-details__summary,
 .page-colour--black .nhsuk-details__summary-text,
-.page-colour--black .nhsuk-promo__heading,
-.page-colour--black a, #content .page-style--black .nhsuk-details__summary,
+.page-colour--black .nhsuk-promo__heading, #content .page-style--black .nhsuk-details__summary,
 #content .page-style--black .nhsuk-details__summary-text,
-#content .page-style--black .nhsuk-promo__heading,
-#content .page-style--black a {
+#content .page-style--black .nhsuk-promo__heading {
   color: #000000;
 }
 
@@ -986,11 +974,9 @@
 
 .page-colour--purple .nhsuk-details__summary,
 .page-colour--purple .nhsuk-details__summary-text,
-.page-colour--purple .nhsuk-promo__heading,
-.page-colour--purple a, #content .page-style--purple .nhsuk-details__summary,
+.page-colour--purple .nhsuk-promo__heading, #content .page-style--purple .nhsuk-details__summary,
 #content .page-style--purple .nhsuk-details__summary-text,
-#content .page-style--purple .nhsuk-promo__heading,
-#content .page-style--purple a {
+#content .page-style--purple .nhsuk-promo__heading {
   color: #330072;
 }
 
@@ -1144,11 +1130,9 @@
 
 .page-colour--pink .nhsuk-details__summary,
 .page-colour--pink .nhsuk-details__summary-text,
-.page-colour--pink .nhsuk-promo__heading,
-.page-colour--pink a, #content .page-style--pink .nhsuk-details__summary,
+.page-colour--pink .nhsuk-promo__heading, #content .page-style--pink .nhsuk-details__summary,
 #content .page-style--pink .nhsuk-details__summary-text,
-#content .page-style--pink .nhsuk-promo__heading,
-#content .page-style--pink a {
+#content .page-style--pink .nhsuk-promo__heading {
   color: #ae2573;
 }
 
@@ -1302,11 +1286,9 @@
 
 .page-colour--light-purple .nhsuk-details__summary,
 .page-colour--light-purple .nhsuk-details__summary-text,
-.page-colour--light-purple .nhsuk-promo__heading,
-.page-colour--light-purple a, #content .page-style--light-purple .nhsuk-details__summary,
+.page-colour--light-purple .nhsuk-promo__heading, #content .page-style--light-purple .nhsuk-details__summary,
 #content .page-style--light-purple .nhsuk-details__summary-text,
-#content .page-style--light-purple .nhsuk-promo__heading,
-#content .page-style--light-purple a {
+#content .page-style--light-purple .nhsuk-promo__heading {
   color: #704c9c;
 }
 
@@ -1460,11 +1442,9 @@
 
 .page-colour--emergency-services-red .nhsuk-details__summary,
 .page-colour--emergency-services-red .nhsuk-details__summary-text,
-.page-colour--emergency-services-red .nhsuk-promo__heading,
-.page-colour--emergency-services-red a, #content .page-style--emergency-services-red .nhsuk-details__summary,
+.page-colour--emergency-services-red .nhsuk-promo__heading, #content .page-style--emergency-services-red .nhsuk-details__summary,
 #content .page-style--emergency-services-red .nhsuk-details__summary-text,
-#content .page-style--emergency-services-red .nhsuk-promo__heading,
-#content .page-style--emergency-services-red a {
+#content .page-style--emergency-services-red .nhsuk-promo__heading {
   color: #d5281b;
 }
 
@@ -1618,11 +1598,9 @@
 
 .page-colour--dark-green .nhsuk-details__summary,
 .page-colour--dark-green .nhsuk-details__summary-text,
-.page-colour--dark-green .nhsuk-promo__heading,
-.page-colour--dark-green a, #content .page-style--dark-green .nhsuk-details__summary,
+.page-colour--dark-green .nhsuk-promo__heading, #content .page-style--dark-green .nhsuk-details__summary,
 #content .page-style--dark-green .nhsuk-details__summary-text,
-#content .page-style--dark-green .nhsuk-promo__heading,
-#content .page-style--dark-green a {
+#content .page-style--dark-green .nhsuk-promo__heading {
   color: #006747;
 }
 
@@ -1776,11 +1754,9 @@
 
 .page-colour--light-green .nhsuk-details__summary,
 .page-colour--light-green .nhsuk-details__summary-text,
-.page-colour--light-green .nhsuk-promo__heading,
-.page-colour--light-green a, #content .page-style--light-green .nhsuk-details__summary,
+.page-colour--light-green .nhsuk-promo__heading, #content .page-style--light-green .nhsuk-details__summary,
 #content .page-style--light-green .nhsuk-details__summary-text,
-#content .page-style--light-green .nhsuk-promo__heading,
-#content .page-style--light-green a {
+#content .page-style--light-green .nhsuk-promo__heading {
   color: #78be20;
 }
 
@@ -1934,11 +1910,9 @@
 
 .page-colour--aqua-green .nhsuk-details__summary,
 .page-colour--aqua-green .nhsuk-details__summary-text,
-.page-colour--aqua-green .nhsuk-promo__heading,
-.page-colour--aqua-green a, #content .page-style--aqua-green .nhsuk-details__summary,
+.page-colour--aqua-green .nhsuk-promo__heading, #content .page-style--aqua-green .nhsuk-details__summary,
 #content .page-style--aqua-green .nhsuk-details__summary-text,
-#content .page-style--aqua-green .nhsuk-promo__heading,
-#content .page-style--aqua-green a {
+#content .page-style--aqua-green .nhsuk-promo__heading {
   color: #00a499;
 }
 
@@ -2092,11 +2066,9 @@
 
 .page-colour--gds-black .nhsuk-details__summary,
 .page-colour--gds-black .nhsuk-details__summary-text,
-.page-colour--gds-black .nhsuk-promo__heading,
-.page-colour--gds-black a, #content .page-style--gds-black .nhsuk-details__summary,
+.page-colour--gds-black .nhsuk-promo__heading, #content .page-style--gds-black .nhsuk-details__summary,
 #content .page-style--gds-black .nhsuk-details__summary-text,
-#content .page-style--gds-black .nhsuk-promo__heading,
-#content .page-style--gds-black a {
+#content .page-style--gds-black .nhsuk-promo__heading {
   color: #0b0c0c;
 }
 
@@ -2250,11 +2222,9 @@
 
 .page-colour--magistrates-teal .nhsuk-details__summary,
 .page-colour--magistrates-teal .nhsuk-details__summary-text,
-.page-colour--magistrates-teal .nhsuk-promo__heading,
-.page-colour--magistrates-teal a, #content .page-style--magistrates-teal .nhsuk-details__summary,
+.page-colour--magistrates-teal .nhsuk-promo__heading, #content .page-style--magistrates-teal .nhsuk-details__summary,
 #content .page-style--magistrates-teal .nhsuk-details__summary-text,
-#content .page-style--magistrates-teal .nhsuk-promo__heading,
-#content .page-style--magistrates-teal a {
+#content .page-style--magistrates-teal .nhsuk-promo__heading {
   color: #336C83;
 }
 

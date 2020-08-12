@@ -1,3 +1,19 @@
+/* Style Variation - Overrides NHS DS Frontend styles */
+
+// Default styles
+//TODO: Make background color and link color theme option
+html, body {
+	background-color: $color_nhsuk-white;
+}
+
+a {
+	color: $color-southsea-blue;
+}
+
+a:visited {
+	color: $color_iris-purple;
+}
+
 /*
 // variations to styling required for gutenberg native blocks
 // @author Tony Blacker, NHS Leadership Academy
