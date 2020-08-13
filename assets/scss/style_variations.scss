@@ -10,8 +10,16 @@ a {
 	color: $color-southsea-blue;
 }
 
+a:hover {
+  color: $color-marine-blue;
+}
+
+a:active {
+  color: $color-bluebell-blue;
+}
+
 a:visited {
-	color: $color_iris-purple;
+	color: $color_lavendar-purple;
 }
 
 /*
