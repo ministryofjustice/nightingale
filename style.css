@@ -10813,6 +10813,17 @@ textarea:focus, #login #loginform .user-login:focus, #login #loginform .user_pas
 }
 
 /* end of banner.scss include */
+.nhsuk-footer__list {
+  width: 100%;
+  margin-bottom: 16px;
+  margin-bottom: 1rem;
+}
+
+.nhsuk-footer__copyright {
+  float: unset;
+  text-align: left;
+}
+
 .nhsuk-footer__copyright_img {
   text-align: center;
 }
@@ -10834,6 +10845,11 @@ textarea:focus, #login #loginform .user-login:focus, #login #loginform .user_pas
   background-color: transparent;
   box-shadow: none;
   color: #ffeb3b;
+}
+
+.nhsuk-footer .widget_social_widget .widgettitle {
+  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 /* Style Variation - Overrides NHS DS Frontend styles */
