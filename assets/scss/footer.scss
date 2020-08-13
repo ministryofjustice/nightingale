@@ -1,6 +1,15 @@
 .nhsuk-footer {
 
+	&__list {
+		width: 100%;
+		margin-bottom: 16px;
+		margin-bottom: 1rem;
+	}
+
 	&__copyright {
+		float: unset;
+		text-align: left;
+
 		&_img {
 
 			text-align: center;
@@ -22,6 +31,11 @@
 				box-shadow: none;
 				color:  #ffeb3b;
 			}
+		}
+
+		.widgettitle {
+			font-size: 24px;
+			font-size: 1.5rem;
 		}
 	}
 }
