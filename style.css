@@ -638,7 +638,7 @@ table {
 
 .post,
 .page {
-  margin: 0 0 1.5em;
+  margin: 0;
 }
 
 .updated:not(.published) {
@@ -12020,6 +12020,14 @@ aside#secondary > section {
 }
 
 .primary-font--pt-sans {
+  font-family: "PT Sans", sans-serif;
+}
+
+.primary-font--pt-sans .govuk-body,
+.primary-font--pt-sans .govuk-details,
+.primary-font--pt-sans .govuk-accordion__open-all,
+.primary-font--pt-sans .govuk-accordion__section-heading,
+.primary-font--pt-sans .govuk-accordion__section-button {
   font-family: "PT Sans", sans-serif;
 }
 
