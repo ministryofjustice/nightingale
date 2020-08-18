@@ -1,118 +1,117 @@
- h1 {
+h1 {
 
-    font-size: 50px;
-    font-size: 3.125rem;
-    line-height: 120%;
+  font-size: 50px;
+  font-size: 3.125rem;
+  line-height: 120%;
 
-    @include mq($from: tablet) {
-      font-size: 56px;
-      font-size: 3.5rem;
-    }
+  @include mq($from: tablet) {
+    font-size: 56px;
+    font-size: 3.5rem;
+  }
+}
+
+h2 {
+
+  font-size: 38px;
+  font-size: 2.375rem;
+  line-height: 120%;
+
+  @include mq($from: tablet) {
+    font-size: 42px;
+    font-size: 2.625rem;
+  }
+}
+
+h3 {
+
+  font-size: 28px;
+  font-size: 1.75rem;
+  line-height: 130%;
+
+  @include mq($from: tablet) {
+    font-size: 32px;
+    font-size: 2.0rem;
+  }
+}
+
+h4 {
+
+  font-size: 22px;
+  font-size: 1.375rem;
+  line-height: 145%;
+
+  @include mq($from: tablet) {
+    font-size: 24px;
+    font-size: 1.5rem;
+  }
+}
+
+p {
+
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 155%;
+
+  @include mq($from: tablet) {
+    font-size: 18px;
+    font-size: 1.125rem;
   }
 
-  h2 {
 
-    font-size: 38px;
-    font-size: 2.375rem;
-    line-height: 120%;
+}
 
-    @include mq($from: tablet) {
-      font-size: 42px;
-      font-size: 2.625rem;
-    }
+blockquote {
+
+  font-style: italic;
+  font-size: 22px;
+  font-size: 1.375rem;
+  line-height: 150%;
+
+  @include mq($from: tablet) {
+    font-size: 24px;
+    font-size: 1.5rem;
   }
 
-  h3 {
 
-    font-size: 28px;
-    font-size: 1.75rem;
-    line-height: 130%;
+}
 
-    @include mq($from: tablet) {
-      font-size: 32px;
-      font-size: 2.0rem;
-    }
+.intro, .intro p {
+
+  font-size: 22px;
+  font-size: 1.375rem;
+  line-height: 150%;
+
+  @include mq($from: tablet) {
+    font-size: 24px;
+    font-size: 1.5rem;
   }
 
-  h4 {
+}
 
-    font-size: 22px;
-    font-size: 1.375rem;
-    line-height: 145%;
+.button {
 
-    @include mq($from: tablet) {
-      font-size: 24px;
-      font-size: 1.5rem;
-    }
+  font-style: italic;
+  font-size: 22px;
+  font-size: 1.375rem;
+  line-height: 155%;
+
+  @include mq($from: tablet) {
+    font-size: 24px;
+    font-size: 1.5rem;
   }
 
-  p {
 
-    font-size: 16px;
-    font-size: 1rem;
-    line-height: 155%;
+}
 
-    @include mq($from: tablet) {
-      font-size: 18px;
-      font-size: 1.125rem;
-    }
+.display {
+  font-size: 68px;
+  font-size: 4.25em;
+  line-height: 120%;
 
+  @include mq($from: tablet) {
 
+    font-size: 76px;
+    font-size: 4.75em;
   }
 
-  blockquote {
-
-    font-style: italic;
-    font-size: 22px;
-    font-size: 1.375rem;
-    line-height: 150%;
-
-    @include mq($from: tablet) {
-      font-size: 24px;
-      font-size: 1.5rem;
-    }
-
-
-  }
-
-  .intro, .intro p {
-
-    font-size: 22px;
-    font-size: 1.375rem;
-    line-height: 150%;
-
-    @include mq($from: tablet) {
-      font-size: 24px;
-      font-size: 1.5rem;
-    }
-
-  }
-
- .button {
-
-   font-style: italic;
-   font-size: 22px;
-   font-size: 1.375rem;
-   line-height: 155%;
-
-   @include mq($from: tablet) {
-     font-size: 24px;
-     font-size: 1.5rem;
-   }
-
-
- }
-
-  .display {
-    font-size: 68px;
-    font-size: 4.25em;
-    line-height: 120%;
-
-    @include mq($from: tablet) {
-
-      font-size: 76px;
-      font-size: 4.75em;
-    }
-
-  }
-
+}
