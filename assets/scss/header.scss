@@ -235,4 +235,41 @@
 		margin-top: 0;
 	}
 }
+
+.custom-logo-link {
+  float: left;
+}
+
+.nhsuk-header__logo {
+  @include mq($until: tablet) {
+      max-width: 70%;
+  }
+
+  @include mq($from: tablet) {
+      margin-left: -15px;
+  }
+
+}
+.nhsuk-header  .nhsuk-header__container {
+  min-height: 60px;
+  padding: 9px 0 5px 0;
+
+  @include mq($until: tablet) {
+    min-height: 60px;
+  }
+}
+
+.nhsuk-header.nhsuk-header--transactional .nhsuk-header__transactional-service-name {
+  @include mq($until: tablet) {
+    padding-bottom: 0;
+    padding-top: 5px;
+  }
+}
+
+.nhsuk-header.nhsuk-header--transactional .nhsuk-header__logo {
+  @include mq($until: tablet) {
+      padding: 0 0 0 10px;
+      position: static;
+  }
+}
 /* end of header.scss include */

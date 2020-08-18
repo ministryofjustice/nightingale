@@ -287,6 +287,30 @@ function nightingale_customize_register( $wp_customize ) {
         )
     );
 
+    /*
+        Show/Hide Site Title
+    */
+    $wp_customize->add_setting(
+        'show_sitename',
+        array(
+            'default'           => 'yes',
+            'sanitize_callback' => 'nightingale_sanitize_select',
+        )
+    );
+    $wp_customize->add_control(
+        'show_sitename',
+        array(
+            'label'       => esc_html__( 'Show Site Name?', 'nightingale' ),
+            'description' => esc_html__( 'Would you like to show the site name in the header?', 'nightingale' ),
+            'section'     => 'title_tagline',
+            'type'        => 'radio',
+            'choices'     => array(
+                'yes' => esc_html__( 'Yes', 'nightingale' ),
+                'no'  => esc_html__( 'No', 'nightingale' ),
+            ),
+        )
+    );
+
 	/*
 	 * Show Organisation Name?
 	 */

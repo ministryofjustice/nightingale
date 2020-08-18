@@ -10755,6 +10755,47 @@ textarea:focus, #login #loginform .user-login:focus, #login #loginform .user_pas
   margin-top: 0;
 }
 
+.custom-logo-link {
+  float: left;
+}
+
+@media (max-width: 40.0525em) {
+  .nhsuk-header__logo {
+    max-width: 70%;
+  }
+}
+
+@media (min-width: 40.0625em) {
+  .nhsuk-header__logo {
+    margin-left: -15px;
+  }
+}
+
+.nhsuk-header .nhsuk-header__container {
+  min-height: 60px;
+  padding: 9px 0 5px 0;
+}
+
+@media (max-width: 40.0525em) {
+  .nhsuk-header .nhsuk-header__container {
+    min-height: 60px;
+  }
+}
+
+@media (max-width: 40.0525em) {
+  .nhsuk-header.nhsuk-header--transactional .nhsuk-header__transactional-service-name {
+    padding-bottom: 0;
+    padding-top: 5px;
+  }
+}
+
+@media (max-width: 40.0525em) {
+  .nhsuk-header.nhsuk-header--transactional .nhsuk-header__logo {
+    padding: 0 0 0 10px;
+    position: static;
+  }
+}
+
 /* end of header.scss include */
 .nightingale-banner__container {
   padding: 20px 0;
@@ -12152,6 +12193,13 @@ aside#secondary > section {
     font-size: 76px;
     font-size: 4.75em;
   }
+}
+
+.primary-font--pt-sans .nhsuk-header .nhsuk-header__transactional-service-name a.nhsuk-header__transactional-service-name--link {
+  font-weight: normal;
+  font-size: 22px;
+  font-size: 1.375em;
+  line-height: 130%;
 }
 
 /* Events Calendar Styles */
