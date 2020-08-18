@@ -10785,7 +10785,7 @@ textarea:focus, #login #loginform .user-login:focus, #login #loginform .user_pas
 @media (max-width: 40.0525em) {
   .nhsuk-header.nhsuk-header--transactional .nhsuk-header__transactional-service-name {
     padding-bottom: 0;
-    padding-top: 5px;
+    padding-top: 0;
   }
 }
 
@@ -12199,7 +12199,7 @@ aside#secondary > section {
   font-weight: normal;
   font-size: 22px;
   font-size: 1.375em;
-  line-height: 130%;
+  line-height: 165%;
 }
 
 /* Events Calendar Styles */
