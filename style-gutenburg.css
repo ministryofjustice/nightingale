@@ -14625,7 +14625,7 @@
 .primary-font-admin--pt-sans .edit-post-visual-editor .block-editor-block-list__block .govuk-accordion__section .govuk-accordion__section-button, .primary-font-admin--pt-sans .edit-post-visual-editor .block-editor-block-list__block .govuk-accordion__section h3, .primary-font-admin--pt-sans .block-editor-block-styles .block-editor-block-list__block .govuk-accordion__section .govuk-accordion__section-button, .primary-font-admin--pt-sans .block-editor-block-styles .block-editor-block-list__block .govuk-accordion__section h3 {
   font-size: 24px;
   font-size: 1.5rem;
-  line-height: 130%;
+  line-height: 100%;
 }
 
 @media (min-width: 61.25em) {

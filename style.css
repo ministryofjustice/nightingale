@@ -12205,7 +12205,7 @@ aside#secondary > section {
 .primary-font--pt-sans .govuk-accordion__section .govuk-accordion__section-button, .primary-font--pt-sans .govuk-accordion__section h3 {
   font-size: 24px;
   font-size: 1.5rem;
-  line-height: 130%;
+  line-height: 100%;
 }
 
 @media (min-width: 48.0625em) {
