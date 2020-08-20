@@ -7,21 +7,14 @@ $banner_link_txt = get_theme_mod('header_banner_link_text');
 $banner_link_url = get_theme_mod('header_banner_link_url');
 $banner_link_style = get_theme_mod('banner_link_style', 'nhsuk-button');
 
-if ($show_banner == 'yes') {
+if ($show_banner == 'yes' && is_front_page()) {
     ?>
 
     <div class="nhsuk-width-container nightingale-banner__container">
         <div class=" nhsuk-grid-row">
 
             <div class="nhsuk-grid-column-two-thirds">
-                <?php if (is_front_page()) { ?>
                     <h1 class="nightingale-banner__title"><?php echo $banner_title; ?></h1>
-                    <?php
-                } else { ?>
-                    <p class="nightingale-banner__title"><?php echo $banner_title; ?></p>
-                    <?php
-                }
-                ?>
             </div>
             <div class="nhsuk-grid__item nhsuk-grid-column-one-third">
 
