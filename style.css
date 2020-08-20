@@ -12082,7 +12082,7 @@ aside#secondary > section {
   line-height: 120%;
 }
 
-@media (min-width: 40.0625em) {
+@media (min-width: 48.0625em) {
   .primary-font--pt-sans h1 {
     font-size: 56px;
     font-size: 3.5rem;
@@ -12095,7 +12095,7 @@ aside#secondary > section {
   line-height: 120%;
 }
 
-@media (min-width: 40.0625em) {
+@media (min-width: 48.0625em) {
   .primary-font--pt-sans h2 {
     font-size: 42px;
     font-size: 2.625rem;
@@ -12108,7 +12108,7 @@ aside#secondary > section {
   line-height: 130%;
 }
 
-@media (min-width: 40.0625em) {
+@media (min-width: 48.0625em) {
   .primary-font--pt-sans h3 {
     font-size: 32px;
     font-size: 2.0rem;
@@ -12121,7 +12121,7 @@ aside#secondary > section {
   line-height: 145%;
 }
 
-@media (min-width: 40.0625em) {
+@media (min-width: 48.0625em) {
   .primary-font--pt-sans h4 {
     font-size: 24px;
     font-size: 1.5rem;
@@ -12134,7 +12134,7 @@ aside#secondary > section {
   line-height: 155%;
 }
 
-@media (min-width: 40.0625em) {
+@media (min-width: 48.0625em) {
   .primary-font--pt-sans p, .primary-font--pt-sans .tribe-common .nhsuk-promo-group p.nhsuk-promo__description, .tribe-common .nhsuk-promo-group .primary-font--pt-sans p.nhsuk-promo__description {
     font-size: 18px;
     font-size: 1.125rem;
@@ -12148,7 +12148,7 @@ aside#secondary > section {
   line-height: 150%;
 }
 
-@media (min-width: 40.0625em) {
+@media (min-width: 48.0625em) {
   .primary-font--pt-sans blockquote {
     font-size: 24px;
     font-size: 1.5rem;
@@ -12161,7 +12161,7 @@ aside#secondary > section {
   line-height: 150%;
 }
 
-@media (min-width: 40.0625em) {
+@media (min-width: 48.0625em) {
   .primary-font--pt-sans .intro, .primary-font--pt-sans .intro p, .primary-font--pt-sans .intro .tribe-common .nhsuk-promo-group p.nhsuk-promo__description, .tribe-common .nhsuk-promo-group .primary-font--pt-sans .intro p.nhsuk-promo__description {
     font-size: 24px;
     font-size: 1.5rem;
@@ -12175,7 +12175,7 @@ aside#secondary > section {
   line-height: 155%;
 }
 
-@media (min-width: 40.0625em) {
+@media (min-width: 48.0625em) {
   .primary-font--pt-sans .button {
     font-size: 24px;
     font-size: 1.5rem;
@@ -12188,7 +12188,7 @@ aside#secondary > section {
   line-height: 120%;
 }
 
-@media (min-width: 40.0625em) {
+@media (min-width: 48.0625em) {
   .primary-font--pt-sans .display {
     font-size: 76px;
     font-size: 4.75em;
