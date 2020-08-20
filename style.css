@@ -12202,6 +12202,19 @@ aside#secondary > section {
   line-height: 165%;
 }
 
+.primary-font--pt-sans .govuk-accordion__section .govuk-accordion__section-button, .primary-font--pt-sans .govuk-accordion__section h3 {
+  font-size: 24px;
+  font-size: 1.5rem;
+  line-height: 130%;
+}
+
+@media (min-width: 48.0625em) {
+  .primary-font--pt-sans .govuk-accordion__section .govuk-accordion__section-button, .primary-font--pt-sans .govuk-accordion__section h3 {
+    font-size: 32px;
+    font-size: 2.0rem;
+  }
+}
+
 /* Events Calendar Styles */
 .tribe-common div.nhsuk-grid-column-two-thirds {
   padding-left: 0;

@@ -122,3 +122,18 @@ blockquote {
   font-size: 1.375em;
   line-height: 165%;
 }
+
+.govuk-accordion__section  {
+
+  .govuk-accordion__section-button, h3 {
+    font-size: 24px;
+    font-size: 1.5rem;
+    line-height: 130%;
+
+    @include mq($from: desktop) {
+      font-size: 32px;
+      font-size: 2.0rem;
+    }
+  }
+
+}
