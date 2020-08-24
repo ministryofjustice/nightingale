@@ -47,3 +47,6 @@ nightingale.zip
 
 # Docker stuff
 ssh-key
+
+# Compiled Styles
+style.min.css
