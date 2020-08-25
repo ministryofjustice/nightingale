@@ -22,8 +22,8 @@
 	}
 	
 	.yellow-button {
-		background: #FFDD00;
-		color: #000000;
+		background: $color_sunflower_yellow;
+		color: $color_charcoal-black;
 		padding: 6px 12px;
 		font-weight: bold;
 		text-decoration: none;
@@ -39,6 +39,17 @@
 			text-align: left;
 			padding: 3px 12px;
 		}
+
+    &:visited {
+      color: $color_charcoal-black;
+      text-decoration: none;
+    }
+
+    &:hover, &:active, &:focus {
+      background: $color_charcoal-black;
+      color: $color_snow_white;
+      box-shadow: none;
+    }
 	}
 }
 /* end of banner.scss include */

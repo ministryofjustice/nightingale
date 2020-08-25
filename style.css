@@ -10830,8 +10830,8 @@ textarea:focus, #login #loginform .user-login:focus, #login #loginform .user_pas
 }
 
 .nightingale-banner__container .yellow-button {
-  background: #FFDD00;
-  color: #000000;
+  background: #FFE600;
+  color: #0B0C0C;
   padding: 6px 12px;
   font-weight: bold;
   text-decoration: none;
@@ -10851,6 +10851,17 @@ textarea:focus, #login #loginform .user-login:focus, #login #loginform .user_pas
   }
 }
 
+.nightingale-banner__container .yellow-button:visited {
+  color: #0B0C0C;
+  text-decoration: none;
+}
+
+.nightingale-banner__container .yellow-button:hover, .nightingale-banner__container .yellow-button:active, .nightingale-banner__container .yellow-button:focus {
+  background: #0B0C0C;
+  color: #FFFFFF;
+  box-shadow: none;
+}
+
 /* end of banner.scss include */
 .nhsuk-footer__list {
   width: 100%;
@@ -10861,6 +10872,16 @@ textarea:focus, #login #loginform .user-login:focus, #login #loginform .user_pas
 .nhsuk-footer__copyright {
   float: unset;
   text-align: left;
+  color: #454A4C;
+  width: 100%;
+}
+
+.nhsuk-footer__copyright a {
+  color: #454A4C;
+}
+
+.nhsuk-footer__copyright a:visited {
+  color: #454A4C;
 }
 
 .nhsuk-footer__copyright_img {
