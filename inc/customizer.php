@@ -366,6 +366,24 @@ function nightingale_customize_register( $wp_customize ) {
         'section'   => 'title_tagline'
     ) ));
 
+    $wp_customize->add_setting(
+        'copyright_additional_text',
+        array(
+            'sanitize_callback' => 'wp_kses_post',
+            'transport'   => 'refresh'
+        )
+    );
+
+    $wp_customize->add_control(
+        'copyright_additional_text',
+        array(
+            'label'           => esc_html__( 'Copyright Additional Text', 'nightingale' ),
+            'description' => esc_html__( 'This text is shown next to copyright. It can include links.', 'nightingale' ),
+            'section'         => 'title_tagline',
+            'type'            => 'textarea',
+        )
+    );
+
 	/*
 	 * -----------------------------------------------------------
 	 * Colour chooser

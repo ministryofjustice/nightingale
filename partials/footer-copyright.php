@@ -12,6 +12,8 @@
 $organisation_name = get_theme_mod('org_name_field', '');
 
 $copyright_img = get_theme_mod('copyright_img');
+$copyright_additional_text = get_theme_mod('copyright_additional_text', '');
+
 ?>
 <div class="nhsuk-footer__copyright">
 
@@ -31,5 +33,7 @@ $copyright_img = get_theme_mod('copyright_img');
         bloginfo('name');
     }
     ?>
-    <?php echo esc_html(date_i18n(__('Y', 'nightingale'))); ?>
+    <?php echo esc_html(date_i18n(__('Y', 'nightingale'))); ?>.
+    <?php  if (!empty($copyright_additional_text)) { echo $copyright_additional_text; }?>
+
 </div>
