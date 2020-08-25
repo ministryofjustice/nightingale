@@ -9,6 +9,16 @@
 	&__copyright {
 		float: unset;
 		text-align: left;
+    color: #454A4C;
+    width: 100%;
+
+    a {
+      color: #454A4C;
+
+      &:visited {
+        color: #454A4C;
+      }
+    }
 
 		&_img {
 
