@@ -26,3 +26,17 @@ $fonts: (
   
   @import 'fontstyles/pt-sans';
 }
+
+//Readable Text Length
+
+.page .entry-content {
+  & > p,
+  & > h1,
+  & > h2,
+  & > h3,
+  & > h4 {
+    @include mq($from: tablet) {
+      max-width: 75%;
+    }
+  }
+}
