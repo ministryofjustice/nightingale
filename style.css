@@ -10820,6 +10820,7 @@ textarea:focus, #login #loginform .user-login:focus, #login #loginform .user_pas
 @media (min-width: 40.0625em) {
   .nightingale-banner__container .nightingale-banner__title {
     margin-bottom: 0;
+    line-height: 100%;
   }
 }
 
@@ -10864,6 +10865,12 @@ textarea:focus, #login #loginform .user-login:focus, #login #loginform .user_pas
 }
 
 /* end of banner.scss include */
+@media (min-width: 40.0625em) {
+  .nhsuk-breadcrumb__list, .learndash-wrapper ld-breadcrumbs .ld-breadcrumbs-segments, .nhsuk-breadcrumb .sfwd-breadcrumbs, .learndash-wrapper ld-breadcrumbs .sfwd-breadcrumbs {
+    margin-left: -15px;
+  }
+}
+
 .nhsuk-footer__list {
   width: 100%;
   margin-bottom: 16px;
