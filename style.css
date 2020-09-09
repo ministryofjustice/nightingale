@@ -10909,10 +10909,10 @@ textarea:focus, #login #loginform .user-login:focus, #login #loginform .user_pas
   margin-right: 12px;
 }
 
-.nhsuk-footer .widget_social_widget a:focus {
+.nhsuk-footer .widget_social_widget a:focus, .nhsuk-footer .widget_social_widget a:hover, .nhsuk-footer .widget_social_widget a:active {
   background-color: transparent;
   box-shadow: none;
-  color: #ffeb3b;
+  color: #0D47A1;
 }
 
 .nhsuk-footer .widget_social_widget .widgettitle {
