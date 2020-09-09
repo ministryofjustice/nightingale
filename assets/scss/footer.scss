@@ -36,10 +36,10 @@
 			color: #454A4C;
 			margin-right: 12px;
 
-			&:focus {
+			&:focus, &:hover, &:active  {
 				background-color: transparent;
 				box-shadow: none;
-				color:  #ffeb3b;
+				color:  $color_marine-blue;
 			}
 		}
 
