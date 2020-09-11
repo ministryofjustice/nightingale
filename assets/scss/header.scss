@@ -32,7 +32,7 @@
 
 
   .nhsuk-header__transactional-service-name {
-	a.nhsuk-header__transactional-service-name--link {
+
 	  font-weight : $nhsuk-font-bold;
 	  color       : $color_nhsuk-white;
 
@@ -41,7 +41,7 @@
 		background-color : transparent;
 		color            : $color_nhsuk-white;
 	  }
-	}
+
   }
 
   .nhsuk-search__input {
@@ -236,7 +236,7 @@
 	}
 }
 
-.custom-logo-link {
+.custom-logo {
   float: left;
 }
 

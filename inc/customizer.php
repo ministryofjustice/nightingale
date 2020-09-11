@@ -311,6 +311,53 @@ function nightingale_customize_register( $wp_customize ) {
         )
     );
 
+    /*
+    * Logo/Sitename Has Link?
+    */
+    $wp_customize->add_setting(
+        'logo_has_link',
+        array(
+            'default'           => 'yes',
+            'sanitize_callback' => 'nightingale_sanitize_select',
+        )
+    );
+    $wp_customize->add_control(
+        'logo_has_link',
+        array(
+            'label'       => esc_html__( 'Logo/Site Name Link?', 'nightingale' ),
+            'description' => esc_html__( 'Would you like the site name and/or logo  to be a link? You can set a custom link or the default link is to the homepage.', 'nightingale' ),
+            'section'     => 'title_tagline',
+            'type'        => 'radio',
+            'choices'     => array(
+                'yes' => esc_html__( 'Yes', 'nightingale' ),
+                'no'  => esc_html__( 'No', 'nightingale' ),
+            ),
+        )
+    );
+
+    /*
+     * Logo/Site name custom link
+     */
+    $wp_customize->add_setting(
+        'logo_custom_link',
+        array(
+            'sanitize_callback' => 'nightingale_sanitize_nohtml',
+        )
+    );
+
+    $wp_customize->add_control(
+        'logo_custom_link',
+        array(
+            'label'           => esc_html__( 'Logo/Site Name custom link', 'nightingale' ),
+            'description' => esc_html__( 'Link defaults to homepage if it is not set', 'nightingale' ),
+            'section'         => 'title_tagline',
+            'type'            => 'text',
+            'active_callback' => function () use ( $wp_customize ) {
+                return 'yes' === $wp_customize->get_setting( 'logo_has_link' )->value();
+            },
+        )
+    );
+
 	/*
 	 * Show Organisation Name?
 	 */
