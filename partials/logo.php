@@ -17,6 +17,15 @@ $org_name_checkbox = get_theme_mod( 'org_name_checkbox', 'no' );
 $org_name_field    = get_theme_mod( 'org_name_field' );
 
 $show_sitename = get_theme_mod( 'show_sitename', 'yes' );
+$logo_has_link = get_theme_mod( 'logo_has_link', 'yes' );
+$logo_custom_link = get_theme_mod( 'logo_custom_link', '' );
+
+if(!empty($logo_custom_link)){
+    $logo_link = $logo_custom_link;
+}
+else {
+    $logo_link = get_home_url();
+}
 
 
 /* Check if Organisation name should be different from the site name */
@@ -26,28 +35,51 @@ $logo_line_2 = 'no' === $org_name_checkbox ? get_bloginfo( 'description' ) : get
 
 
 if ( has_custom_logo() ) {
+
+    $custom_logo_id = get_theme_mod( 'custom_logo' );
+    $image = wp_get_attachment_image( $custom_logo_id , 'full' );
 	?>
 	<div class="nhsuk-header__logo">
-		<?php the_custom_logo(); ?>
-		<?php if ( $show_sitename === 'yes' ) { ?>
-			<div class="nhsuk-header__transactional-service-name">
-				<a class="nhsuk-header__transactional-service-name--link" href="<?php echo esc_url_raw( get_home_url() ); ?>"><?php echo esc_html( $logo_line_1 ); ?></a>
-			</div>
-			<?php
-		}
-		?>
+        <?php if ( $logo_has_link === 'yes' ) { ?>
+            <a class="nhsuk-header__logo--link" href="<?php echo esc_url_raw( $logo_link ); ?>">
+        <?php
+            }
+        ?>
+            <div class="custom-logo">
+                <?php echo $image; ?>
+            </div>
+            <?php if ( $show_sitename === 'yes' ) { ?>
+                <div class="nhsuk-header__transactional-service-name">
+                    <?php echo esc_html( $logo_line_1 ); ?>
+                </div>
+                <?php
+            }
+            ?>
+        <?php if ( $logo_has_link === 'yes' ) { ?>
+            </a>
+        <?php
+        }
+        ?>
 	</div>
 	<?php
 }
 else {
 	?>
 	<div class="nhsuk-header__logo">
-		<a class="nhsuk-header__link" href="<?php echo esc_url_raw( get_home_url() ); ?>" aria-label="<?php bloginfo( 'name' ); ?> homepage">
+        <?php if ( $logo_has_link === 'yes' ) { ?>
+            <a class="nhsuk-header__link" href="<?php echo esc_url_raw( $logo_link ); ?>" aria-label="<?php bloginfo( 'name' ); ?> homepage">
+        <?php
+            }
+        ?>
             <?php if ( $show_sitename === 'yes' ) { ?>
                 <span class="nhsuk-organisation-name"><?php echo esc_html( $logo_line_1 ); ?></span>
             <?php } ?>
 			<span class="nhsuk-organisation-descriptor"><?php echo esc_html( $logo_line_2 ); ?></span>
-		</a>
+        <?php if ( $logo_has_link === 'yes' ) { ?>
+		    </a>
+        <?php
+        }
+        ?>
 	</div>
 	<?php
 }

@@ -10572,12 +10572,12 @@ textarea:focus, #login #loginform .user-login:focus, #login #loginform .user_pas
   box-shadow: none;
 }
 
-.nhsuk-header .nhsuk-header__transactional-service-name a.nhsuk-header__transactional-service-name--link {
+.nhsuk-header .nhsuk-header__transactional-service-name {
   font-weight: 600;
   color: #ffffff;
 }
 
-.nhsuk-header .nhsuk-header__transactional-service-name a.nhsuk-header__transactional-service-name--link:hover {
+.nhsuk-header .nhsuk-header__transactional-service-name:hover {
   text-decoration: none;
   background-color: transparent;
   color: #ffffff;
@@ -10755,7 +10755,7 @@ textarea:focus, #login #loginform .user-login:focus, #login #loginform .user_pas
   margin-top: 0;
 }
 
-.custom-logo-link {
+.custom-logo {
   float: left;
 }
 
@@ -12224,7 +12224,7 @@ aside#secondary > section {
   }
 }
 
-.primary-font--pt-sans .nhsuk-header .nhsuk-header__transactional-service-name a.nhsuk-header__transactional-service-name--link {
+.primary-font--pt-sans .nhsuk-header .nhsuk-header__transactional-service-name {
   font-weight: normal;
   font-size: 22px;
   font-size: 1.375em;
