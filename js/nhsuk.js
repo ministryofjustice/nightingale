@@ -1271,7 +1271,7 @@
 			}))
 		}()
 	}, d = function () {
-		var e = "boolean" == typeof document.createElement("details").open, t = document.querySelectorAll("details"),
+		var e = "boolean" == typeof document.createElement("details").open, t = document.querySelectorAll("details.nhsuk-details"),
 			n = function (t, n) {
 				t.setAttribute("nhsuk-polyfilled", "true"), t.id || t.setAttribute("id", "nhsuk-details".concat(n));
 				var r = document.querySelector("#".concat(t.id, " .nhsuk-details__text"));
