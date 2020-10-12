@@ -33,7 +33,6 @@ function nightingale_customize_register( $wp_customize ) {
 		);
 	}
 
-
 	/*
 	 * ------------------------------------------------------------
 	 * SECTION: Header
@@ -47,7 +46,6 @@ function nightingale_customize_register( $wp_customize ) {
 			'priority'    => 10,
 		)
 	);
-
 
 	/*
 	 * -----------------------------------------------------------
@@ -519,6 +517,37 @@ function nightingale_customize_register( $wp_customize ) {
 			),
 		)
 	);
+
+	$wp_customize->add_setting(
+	// $id
+		'blog_fimage_display',
+		// $args
+		array(
+			'default'           => 'top',
+			'type'              => 'theme_mod',
+			'capability'        => 'edit_theme_options',
+			'sanitize_callback' => 'nightingale_sanitize_select',
+		)
+	);
+
+	$wp_customize->add_control(
+	// $id
+		'blog_fimage_display',
+		// $args
+		array(
+			'settings'    => 'blog_fimage_display',
+			'section'     => 'section_layout',
+			'priority'    => '110',
+			'type'        => 'radio',
+			'label'       => esc_html__( 'Featured images display', 'nightingale' ),
+			'description' => esc_html__( 'Show Featured Image at top of individual posts, or to the side. (If Display Featured Image above is set to no, this setting is ignored)', 'nightingale' ),
+			'choices'     => array(
+				'top'   => esc_html__( 'Top of post', 'nightingale' ),
+				'left'  => esc_html__( 'Floated left', 'nightingale' ),
+				'right' => esc_html__( 'Floated right', 'nightingale' ),
+			),
+		)
+	);
 }
 
 add_action( 'customize_register', 'nightingale_customize_register' );
@@ -541,9 +570,8 @@ function nightingale_add_blog_settings( $wp_customize ) {
 		)
 	);
 
-
 	$wp_customize->add_setting(
-		// $id
+	// $id
 		'blog_sidebar',
 		// $args
 		array(
@@ -555,7 +583,7 @@ function nightingale_add_blog_settings( $wp_customize ) {
 	);
 
 	$wp_customize->add_control(
-		// $id
+	// $id
 		'blog_sidebar',
 		// $args
 		array(
@@ -572,7 +600,7 @@ function nightingale_add_blog_settings( $wp_customize ) {
 	);
 
 	$wp_customize->add_setting(
-		// $id
+	// $id
 		'blog_author_display',
 		// $args
 		array(
@@ -584,7 +612,7 @@ function nightingale_add_blog_settings( $wp_customize ) {
 	);
 
 	$wp_customize->add_control(
-		// $id
+	// $id
 		'blog_author_display',
 		// $args
 		array(
@@ -601,7 +629,7 @@ function nightingale_add_blog_settings( $wp_customize ) {
 	);
 
 	$wp_customize->add_setting(
-		// $id
+	// $id
 		'blog_date_display',
 		// $args
 		array(
@@ -613,7 +641,7 @@ function nightingale_add_blog_settings( $wp_customize ) {
 	);
 
 	$wp_customize->add_control(
-		// $id
+	// $id
 		'blog_date_display',
 		// $args
 		array(
@@ -630,7 +658,7 @@ function nightingale_add_blog_settings( $wp_customize ) {
 	);
 
 	$wp_customize->add_setting(
-		// $id
+	// $id
 		'blog_fallback',
 		// $args
 		array(
@@ -695,7 +723,10 @@ function nightingale_customize_partial_blogdescription() {
  * Binds JS handlers to make Theme Customizer preview reload changes asynchronously.
  */
 function nightingale_customize_preview_js() {
-	wp_enqueue_script( 'nightingale-customizer', get_template_directory_uri() . '/js/customizer.js', array( 'jquery', 'customize-preview' ), '20151215', true );
+	wp_enqueue_script( 'nightingale-customizer', get_template_directory_uri() . '/js/customizer.js', array(
+		'jquery',
+		'customize-preview'
+	), '20151215', true );
 }
 
 add_action( 'customize_preview_init', 'nightingale_customize_preview_js' );

@@ -1,13 +1,13 @@
 === Nightingale 2.0 ===
 Contributors: tblacker
 Requires at least: 5.0
-Tested up to: 5.4.2
+Tested up to: 5.5
 Requires PHP: 5.6
 License: GPL v3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 Theme URI: https://digital.leadershipacademy.nhs.uk/digital-capabilities/websites/nightingale-theme-user-guide/
-Version: 2.1.8
-Stable tag: 2.1.8
+Version: 2.2.3.1
+Stable tag: 2.2.3.1
 
 
 == Description ==
@@ -42,6 +42,48 @@ one level only. To show further levels, we recommend using the right (or left) h
  behaves and whether the top level page is linked etc.
 
 == Changelog
+= 2.2.3.1 =
+Bugfix release:
+ * fixed fatal error with formidable forms
+ * fixed fatal error in gravity forms
+ * fixed footer link display (was previously 1/3 of 1/3 width)
+ * corrected hero inner arrow display
+ * corrected hero background width
+ * added switch for featured image display to be top / right float / left float
+
+= 2.2.3 =
+Bugfix release:
+ * hero images were being suppressed - fixed
+ * striped content was not correctly flexing. - fixed.
+
+= 2.2.2 =
+Maintenance release:
+ * Hero banner alignment fixes - on full screen and on mobile view
+ * Latest posts block rewritten to take note of editor settings (column count, hide/show author, date, featured image etc, category selection, sort order)
+ * corrected embedded media when left or right alignment is chosen to prevent other content from crashing the component
+ * latest post and content post - cleaned logic in code and tidied display
+ * Multiple code tweaks to improve accessibility. This release resolves items picked up on automated a11y scan, a full detailed manual audit is being prepared for the next release
+ * Improved layout and display of month and day view on the events calendar content.
+ * Gravity forms survey - star rating and likert rating display corrected to display correctly on all size screens.
+ * Gravity forms labels a11y improved
+
+= 2.2.1 =
+Maintenance release:
+ * amended slightly to work with WordPress 5.5
+ * minor css tweaks for better NHSUK styling
+
+= 2.2.0 =
+Feature release:
+ * Added default styling to Download Monitor buttons
+ * Added html sitemap functionality
+ * Corrected alignments on nhsblock components
+ * removed search submit button drop shadow, corrected form alignment on search box
+ * Corrected layout ordering in footer region
+ * updated 404 page to include sitemap content for improved UI
+ * Cleaned up SCSS and reduced size of output css
+ * Added compatability with formidable forms plugin
+ * removed horizontal scroll when hero was in use on page
+
 
 = 2.1.8
 Maintenance release
@@ -56,8 +98,6 @@ Maintenance release
  * Minor tweak to criticalcss to minimise screen flicker
  * Improvements to a11y functionality
  * Added screen reader capability to care cards
-
-
 
 = 2.1.7.2 =
 Maintenance release
