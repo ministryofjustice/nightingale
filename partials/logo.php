@@ -33,7 +33,9 @@ else {
 $logo_line_1 = 'no' === $org_name_checkbox ? get_bloginfo( 'name' ) : get_theme_mod( 'org_name_field' );
 $logo_line_2 = 'no' === $org_name_checkbox ? get_bloginfo( 'description' ) : get_bloginfo( 'name' );
 
-
+?>
+<a href="<?php echo esc_url_raw( get_home_url() ); ?>" aria-label="<?php bloginfo( 'name' ); ?> homepage">
+<?php
 if ( has_custom_logo() ) {
 
     $custom_logo_id = get_theme_mod( 'custom_logo' );
@@ -83,3 +85,5 @@ else {
 	</div>
 	<?php
 }
+?>
+</a>
