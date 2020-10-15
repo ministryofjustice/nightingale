@@ -11114,10 +11114,6 @@ a:visited {
   padding: 0;
 }
 
-.nhsuk-grid-column-one-third, .tribe-common div.nhsuk-grid-column-one-third, .tribe-common .nhsuk-promo-group div.nhsuk-grid-column-one-third, .nhsuk-grid-column-one-half, .tribe-common .nhsuk-promo-group div.nhsuk-grid-column-one-half, .nhsuk-grid-column-one-quarter {
-  display: flex;
-}
-
 .nhsuk-header__search-wrap input[type="text"] {
   border: none;
 }
